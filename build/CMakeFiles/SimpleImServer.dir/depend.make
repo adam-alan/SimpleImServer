@@ -5,4 +5,5 @@ CMakeFiles/SimpleImServer.dir/main.cpp.o: ../application/DatabaseService.hpp
 CMakeFiles/SimpleImServer.dir/main.cpp.o: ../infrastructure/model/User.hpp
 CMakeFiles/SimpleImServer.dir/main.cpp.o: ../interfaces/UserService.hpp
 CMakeFiles/SimpleImServer.dir/main.cpp.o: ../main.cpp
+CMakeFiles/SimpleImServer.dir/main.cpp.o: ../socket/TcpServer.hpp
 

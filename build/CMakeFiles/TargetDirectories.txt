@@ -44,3 +44,9 @@
 /home/loadstar/VscodeCpp/SimpleImServer/build/application/CMakeFiles/package.dir
 /home/loadstar/VscodeCpp/SimpleImServer/build/application/CMakeFiles/package_source.dir
 /home/loadstar/VscodeCpp/SimpleImServer/build/application/CMakeFiles/Application.dir
+/home/loadstar/VscodeCpp/SimpleImServer/build/socket/CMakeFiles/edit_cache.dir
+/home/loadstar/VscodeCpp/SimpleImServer/build/socket/CMakeFiles/test.dir
+/home/loadstar/VscodeCpp/SimpleImServer/build/socket/CMakeFiles/package_source.dir
+/home/loadstar/VscodeCpp/SimpleImServer/build/socket/CMakeFiles/rebuild_cache.dir
+/home/loadstar/VscodeCpp/SimpleImServer/build/socket/CMakeFiles/package.dir
+/home/loadstar/VscodeCpp/SimpleImServer/build/socket/CMakeFiles/Socket.dir

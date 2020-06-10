@@ -566,6 +566,19 @@ Application/fast:
 	$(MAKE) $(MAKESILENT) -f application/CMakeFiles/Application.dir/build.make application/CMakeFiles/Application.dir/build
 .PHONY : Application/fast
 
+#=============================================================================
+# Target rules for targets named Socket
+
+# Build rule for target.
+Socket: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Socket
+.PHONY : Socket
+
+# fast build rule for target.
+Socket/fast:
+	$(MAKE) $(MAKESILENT) -f socket/CMakeFiles/Socket.dir/build.make socket/CMakeFiles/Socket.dir/build
+.PHONY : Socket/fast
+
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -635,6 +648,7 @@ help:
 	@echo "... Application"
 	@echo "... Infrastructure"
 	@echo "... SimpleImServer"
+	@echo "... Socket"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

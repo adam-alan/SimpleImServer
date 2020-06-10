@@ -28,5 +28,15 @@
   "directory": "/home/loadstar/VscodeCpp/SimpleImServer/build/application",
   "command": "/usr/bin/g++    -g   -std=gnu++17 -o CMakeFiles/Application.dir/DatabaseService.cc.o -c /home/loadstar/VscodeCpp/SimpleImServer/application/DatabaseService.cc",
   "file": "/home/loadstar/VscodeCpp/SimpleImServer/application/DatabaseService.cc"
+},
+{
+  "directory": "/home/loadstar/VscodeCpp/SimpleImServer/build/socket",
+  "command": "/usr/bin/g++    -g   -std=gnu++17 -o CMakeFiles/Socket.dir/Connection.cc.o -c /home/loadstar/VscodeCpp/SimpleImServer/socket/Connection.cc",
+  "file": "/home/loadstar/VscodeCpp/SimpleImServer/socket/Connection.cc"
+},
+{
+  "directory": "/home/loadstar/VscodeCpp/SimpleImServer/build/socket",
+  "command": "/usr/bin/g++    -g   -std=gnu++17 -o CMakeFiles/Socket.dir/TcpServer.cpp.o -c /home/loadstar/VscodeCpp/SimpleImServer/socket/TcpServer.cpp",
+  "file": "/home/loadstar/VscodeCpp/SimpleImServer/socket/TcpServer.cpp"
 }
 ]

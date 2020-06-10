@@ -13,6 +13,7 @@ set(CMAKE_MAKEFILE_DEPENDS
   "CMakeFiles/3.17.3/CMakeCXXCompiler.cmake"
   "CMakeFiles/3.17.3/CMakeSystem.cmake"
   "../infrastructure/CMakeLists.txt"
+  "../socket/CMakeLists.txt"
   "/usr/share/cmake-3.17/Modules/CMakeCInformation.cmake"
   "/usr/share/cmake-3.17/Modules/CMakeCXXInformation.cmake"
   "/usr/share/cmake-3.17/Modules/CMakeCheckCompilerFlagCommonPatterns.cmake"
@@ -55,6 +56,7 @@ set(CMAKE_MAKEFILE_PRODUCTS
   "CMakeFiles/CMakeDirectoryInformation.cmake"
   "infrastructure/CMakeFiles/CMakeDirectoryInformation.cmake"
   "application/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "socket/CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 
 # Dependency information for all targets:
@@ -90,4 +92,5 @@ set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/SimpleImServer.dir/DependInfo.cmake"
   "infrastructure/CMakeFiles/Infrastructure.dir/DependInfo.cmake"
   "application/CMakeFiles/Application.dir/DependInfo.cmake"
+  "socket/CMakeFiles/Socket.dir/DependInfo.cmake"
   )

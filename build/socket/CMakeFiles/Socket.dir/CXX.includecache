@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/loadstar/VscodeCpp/SimpleImServer/socket/Connection.cc
+Connection.hpp
+/home/loadstar/VscodeCpp/SimpleImServer/socket/Connection.hpp
+iostream
+-
+
+/home/loadstar/VscodeCpp/SimpleImServer/socket/Connection.hpp
+boost/asio.hpp
+-
+memory
+-
+vector
+-
+

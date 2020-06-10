@@ -100,7 +100,9 @@ SimpleImServer_EXTERNAL_OBJECTS = \
 "/home/loadstar/VscodeCpp/SimpleImServer/build/infrastructure/CMakeFiles/Infrastructure.dir/model/User.cc.o" \
 "/home/loadstar/VscodeCpp/SimpleImServer/build/infrastructure/CMakeFiles/Infrastructure.dir/model/UserMsgContent.cc.o" \
 "/home/loadstar/VscodeCpp/SimpleImServer/build/infrastructure/CMakeFiles/Infrastructure.dir/model/UserMsgRelation.cc.o" \
-"/home/loadstar/VscodeCpp/SimpleImServer/build/application/CMakeFiles/Application.dir/DatabaseService.cc.o"
+"/home/loadstar/VscodeCpp/SimpleImServer/build/application/CMakeFiles/Application.dir/DatabaseService.cc.o" \
+"/home/loadstar/VscodeCpp/SimpleImServer/build/socket/CMakeFiles/Socket.dir/Connection.cc.o" \
+"/home/loadstar/VscodeCpp/SimpleImServer/build/socket/CMakeFiles/Socket.dir/TcpServer.cpp.o"
 
 SimpleImServer: CMakeFiles/SimpleImServer.dir/main.cpp.o
 SimpleImServer: infrastructure/CMakeFiles/Infrastructure.dir/model/Group.cc.o
@@ -108,6 +110,8 @@ SimpleImServer: infrastructure/CMakeFiles/Infrastructure.dir/model/User.cc.o
 SimpleImServer: infrastructure/CMakeFiles/Infrastructure.dir/model/UserMsgContent.cc.o
 SimpleImServer: infrastructure/CMakeFiles/Infrastructure.dir/model/UserMsgRelation.cc.o
 SimpleImServer: application/CMakeFiles/Application.dir/DatabaseService.cc.o
+SimpleImServer: socket/CMakeFiles/Socket.dir/Connection.cc.o
+SimpleImServer: socket/CMakeFiles/Socket.dir/TcpServer.cpp.o
 SimpleImServer: CMakeFiles/SimpleImServer.dir/build.make
 SimpleImServer: CMakeFiles/SimpleImServer.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/loadstar/VscodeCpp/SimpleImServer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable SimpleImServer"

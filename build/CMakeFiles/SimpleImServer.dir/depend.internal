@@ -6,3 +6,4 @@ CMakeFiles/SimpleImServer.dir/main.cpp.o
  /home/loadstar/VscodeCpp/SimpleImServer/infrastructure/model/User.hpp
  /home/loadstar/VscodeCpp/SimpleImServer/interfaces/UserService.hpp
  /home/loadstar/VscodeCpp/SimpleImServer/main.cpp
+ /home/loadstar/VscodeCpp/SimpleImServer/socket/TcpServer.hpp
