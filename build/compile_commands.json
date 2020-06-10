@@ -1,0 +1,32 @@
+[
+{
+  "directory": "/home/loadstar/VscodeCpp/SimpleImServer/build",
+  "command": "/usr/bin/g++    -g   -std=gnu++17 -o CMakeFiles/SimpleImServer.dir/main.cpp.o -c /home/loadstar/VscodeCpp/SimpleImServer/main.cpp",
+  "file": "/home/loadstar/VscodeCpp/SimpleImServer/main.cpp"
+},
+{
+  "directory": "/home/loadstar/VscodeCpp/SimpleImServer/build/infrastructure",
+  "command": "/usr/bin/g++    -g   -std=gnu++17 -o CMakeFiles/Infrastructure.dir/model/Group.cc.o -c /home/loadstar/VscodeCpp/SimpleImServer/infrastructure/model/Group.cc",
+  "file": "/home/loadstar/VscodeCpp/SimpleImServer/infrastructure/model/Group.cc"
+},
+{
+  "directory": "/home/loadstar/VscodeCpp/SimpleImServer/build/infrastructure",
+  "command": "/usr/bin/g++    -g   -std=gnu++17 -o CMakeFiles/Infrastructure.dir/model/User.cc.o -c /home/loadstar/VscodeCpp/SimpleImServer/infrastructure/model/User.cc",
+  "file": "/home/loadstar/VscodeCpp/SimpleImServer/infrastructure/model/User.cc"
+},
+{
+  "directory": "/home/loadstar/VscodeCpp/SimpleImServer/build/infrastructure",
+  "command": "/usr/bin/g++    -g   -std=gnu++17 -o CMakeFiles/Infrastructure.dir/model/UserMsgContent.cc.o -c /home/loadstar/VscodeCpp/SimpleImServer/infrastructure/model/UserMsgContent.cc",
+  "file": "/home/loadstar/VscodeCpp/SimpleImServer/infrastructure/model/UserMsgContent.cc"
+},
+{
+  "directory": "/home/loadstar/VscodeCpp/SimpleImServer/build/infrastructure",
+  "command": "/usr/bin/g++    -g   -std=gnu++17 -o CMakeFiles/Infrastructure.dir/model/UserMsgRelation.cc.o -c /home/loadstar/VscodeCpp/SimpleImServer/infrastructure/model/UserMsgRelation.cc",
+  "file": "/home/loadstar/VscodeCpp/SimpleImServer/infrastructure/model/UserMsgRelation.cc"
+},
+{
+  "directory": "/home/loadstar/VscodeCpp/SimpleImServer/build/application",
+  "command": "/usr/bin/g++    -g   -std=gnu++17 -o CMakeFiles/Application.dir/DatabaseService.cc.o -c /home/loadstar/VscodeCpp/SimpleImServer/application/DatabaseService.cc",
+  "file": "/home/loadstar/VscodeCpp/SimpleImServer/application/DatabaseService.cc"
+}
+]

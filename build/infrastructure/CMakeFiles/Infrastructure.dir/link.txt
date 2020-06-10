@@ -1,0 +1,2 @@
+/usr/bin/ar qc libInfrastructure.a  CMakeFiles/Infrastructure.dir/model/Group.cc.o CMakeFiles/Infrastructure.dir/model/User.cc.o
+/usr/bin/ranlib libInfrastructure.a

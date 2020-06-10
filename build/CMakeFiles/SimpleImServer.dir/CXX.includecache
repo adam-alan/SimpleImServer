@@ -1,0 +1,46 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/loadstar/VscodeCpp/SimpleImServer/application/DatabaseService.hpp
+../infrastructure/model/User.hpp
+/home/loadstar/VscodeCpp/SimpleImServer/infrastructure/model/User.hpp
+../interfaces/UserService.hpp
+/home/loadstar/VscodeCpp/SimpleImServer/interfaces/UserService.hpp
+pqxx/pqxx
+-
+
+/home/loadstar/VscodeCpp/SimpleImServer/infrastructure/model/User.hpp
+iostream
+-
+string
+-
+
+/home/loadstar/VscodeCpp/SimpleImServer/interfaces/UserService.hpp
+../infrastructure/model/User.hpp
+/home/loadstar/VscodeCpp/SimpleImServer/infrastructure/model/User.hpp
+string
+-
+vector
+-
+
+/home/loadstar/VscodeCpp/SimpleImServer/main.cpp
+iostream
+-
+memory
+-
+infrastructure/model/User.hpp
+/home/loadstar/VscodeCpp/SimpleImServer/infrastructure/model/User.hpp
+pqxx/pqxx
+-
+spdlog/spdlog.h
+-
+application/DatabaseService.hpp
+/home/loadstar/VscodeCpp/SimpleImServer/application/DatabaseService.hpp
+nlohmann/json.hpp
+-
+

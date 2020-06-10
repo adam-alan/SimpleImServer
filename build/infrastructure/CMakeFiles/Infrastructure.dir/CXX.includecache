@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/loadstar/VscodeCpp/SimpleImServer/infrastructure/model/User.cc
+User.hpp
+/home/loadstar/VscodeCpp/SimpleImServer/infrastructure/model/User.hpp
+
+/home/loadstar/VscodeCpp/SimpleImServer/infrastructure/model/User.hpp
+iostream
+-
+string
+-
+
+/home/loadstar/VscodeCpp/SimpleImServer/infrastructure/model/UserMsgContent.cc
+
+/home/loadstar/VscodeCpp/SimpleImServer/infrastructure/model/UserMsgRelation.cc
+
