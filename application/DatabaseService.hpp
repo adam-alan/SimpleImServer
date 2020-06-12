@@ -10,8 +10,8 @@ class DatabaseService:public UserService{
 public:
     DatabaseService();
     virtual User queryUserById(std::size_t id) override;
-    virtual std::vector<User> queryUserByName(std::string name) override;
-
+    virtual User queryUserByName(std::string name) override;
+    virtual std::vector<User> queryUsersByName(std::string name) override;
     ~DatabaseService();
 private:
     User makeUserFromTableRow(const pqxx::row & row);

@@ -178,6 +178,60 @@ Infrastructure/fast:
 	cd /home/loadstar/VscodeCpp/SimpleImServer/build && $(MAKE) $(MAKESILENT) -f infrastructure/CMakeFiles/Infrastructure.dir/build.make infrastructure/CMakeFiles/Infrastructure.dir/build
 .PHONY : Infrastructure/fast
 
+messages/LoginRequest.o: messages/LoginRequest.cc.o
+
+.PHONY : messages/LoginRequest.o
+
+# target to build an object file
+messages/LoginRequest.cc.o:
+	cd /home/loadstar/VscodeCpp/SimpleImServer/build && $(MAKE) $(MAKESILENT) -f infrastructure/CMakeFiles/Infrastructure.dir/build.make infrastructure/CMakeFiles/Infrastructure.dir/messages/LoginRequest.cc.o
+.PHONY : messages/LoginRequest.cc.o
+
+messages/LoginRequest.i: messages/LoginRequest.cc.i
+
+.PHONY : messages/LoginRequest.i
+
+# target to preprocess a source file
+messages/LoginRequest.cc.i:
+	cd /home/loadstar/VscodeCpp/SimpleImServer/build && $(MAKE) $(MAKESILENT) -f infrastructure/CMakeFiles/Infrastructure.dir/build.make infrastructure/CMakeFiles/Infrastructure.dir/messages/LoginRequest.cc.i
+.PHONY : messages/LoginRequest.cc.i
+
+messages/LoginRequest.s: messages/LoginRequest.cc.s
+
+.PHONY : messages/LoginRequest.s
+
+# target to generate assembly for a file
+messages/LoginRequest.cc.s:
+	cd /home/loadstar/VscodeCpp/SimpleImServer/build && $(MAKE) $(MAKESILENT) -f infrastructure/CMakeFiles/Infrastructure.dir/build.make infrastructure/CMakeFiles/Infrastructure.dir/messages/LoginRequest.cc.s
+.PHONY : messages/LoginRequest.cc.s
+
+messages/loginResponce.o: messages/loginResponce.cc.o
+
+.PHONY : messages/loginResponce.o
+
+# target to build an object file
+messages/loginResponce.cc.o:
+	cd /home/loadstar/VscodeCpp/SimpleImServer/build && $(MAKE) $(MAKESILENT) -f infrastructure/CMakeFiles/Infrastructure.dir/build.make infrastructure/CMakeFiles/Infrastructure.dir/messages/loginResponce.cc.o
+.PHONY : messages/loginResponce.cc.o
+
+messages/loginResponce.i: messages/loginResponce.cc.i
+
+.PHONY : messages/loginResponce.i
+
+# target to preprocess a source file
+messages/loginResponce.cc.i:
+	cd /home/loadstar/VscodeCpp/SimpleImServer/build && $(MAKE) $(MAKESILENT) -f infrastructure/CMakeFiles/Infrastructure.dir/build.make infrastructure/CMakeFiles/Infrastructure.dir/messages/loginResponce.cc.i
+.PHONY : messages/loginResponce.cc.i
+
+messages/loginResponce.s: messages/loginResponce.cc.s
+
+.PHONY : messages/loginResponce.s
+
+# target to generate assembly for a file
+messages/loginResponce.cc.s:
+	cd /home/loadstar/VscodeCpp/SimpleImServer/build && $(MAKE) $(MAKESILENT) -f infrastructure/CMakeFiles/Infrastructure.dir/build.make infrastructure/CMakeFiles/Infrastructure.dir/messages/loginResponce.cc.s
+.PHONY : messages/loginResponce.cc.s
+
 model/Group.o: model/Group.cc.o
 
 .PHONY : model/Group.o
@@ -298,6 +352,12 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... test"
 	@echo "... Infrastructure"
+	@echo "... messages/LoginRequest.o"
+	@echo "... messages/LoginRequest.i"
+	@echo "... messages/LoginRequest.s"
+	@echo "... messages/loginResponce.o"
+	@echo "... messages/loginResponce.i"
+	@echo "... messages/loginResponce.s"
 	@echo "... model/Group.o"
 	@echo "... model/Group.i"
 	@echo "... model/Group.s"

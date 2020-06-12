@@ -1,2 +1,1 @@
-/usr/bin/ar qc libInfrastructure.a  CMakeFiles/Infrastructure.dir/model/Group.cc.o CMakeFiles/Infrastructure.dir/model/User.cc.o
-/usr/bin/ranlib libInfrastructure.a
+/usr/bin/g++ -fPIC -g  -shared -Wl,-soname,libInfrastructure.so -o libInfrastructure.so CMakeFiles/Infrastructure.dir/model/Group.cc.o CMakeFiles/Infrastructure.dir/model/User.cc.o CMakeFiles/Infrastructure.dir/model/UserMsgContent.cc.o CMakeFiles/Infrastructure.dir/model/UserMsgRelation.cc.o CMakeFiles/Infrastructure.dir/messages/LoginRequest.cc.o CMakeFiles/Infrastructure.dir/messages/loginResponce.cc.o 

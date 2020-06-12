@@ -20,7 +20,12 @@ User DatabaseService::queryUserById(std::size_t id) {
 }
 
 
-std::vector<User> DatabaseService::queryUserByName(std::string name){
+User DatabaseService::queryUserByName(std::string name){
+
+}
+
+
+std::vector<User> DatabaseService::queryUsersByName(std::string name){
 
 }
 

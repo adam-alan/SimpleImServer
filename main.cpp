@@ -9,18 +9,35 @@
 #include "socket/TcpServer.hpp"
 
 
+
+
+
 int main(int argc, char *argv[]) {
     DatabaseService databaseService;
     User user = databaseService.queryUserById(1000);
-    spdlog::info("{} {} {} {} {} {} {} {} {}", user.id, user.name, user.nickname, 
-        user.password, user.headImagePath, user.signature, user.sex, user.registerTime, user.updateTime);
-  
-    spdlog::info("({})","Hello world!");
+    std::cout << user << std::endl;
+    // spdlog::info("{} {} {} {} {} {} {} {} {}", user.id, user.name, user.nickname, 
+    //     user.password, user.headImagePath, user.signature, user.sex, user.registerTime, user.updateTime);
+    
     asio::io_context ioContext;
     TcpServer server(ioContext, 12345);
     spdlog::info("{}","start accept");
+    boost::asio::deadline_timer timer(ioContext,boost::posix_time::seconds(30));
     server.start();
-    ioContext.run();
+    
+    timer.async_wait(
+    [&ioContext](const boost::system::error_code& error ){
+        if (!error) {
+            spdlog::info("{}","Hello world!!!");
+            ioContext.post(
+                [&ioContext](){
+                    ioContext.stop();
+                }
+            );
+        }
+        
+    });
+    ioContext.run();    
     return 0;
 }
 

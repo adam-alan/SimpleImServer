@@ -1,2 +1,1 @@
-/usr/bin/ar qc libApplication.a  CMakeFiles/Application.dir/modelServices/UserService.cc.o
-/usr/bin/ranlib libApplication.a
+/usr/bin/g++ -fPIC -g  -shared -Wl,-soname,libApplication.so -o libApplication.so CMakeFiles/Application.dir/DatabaseService.cc.o 

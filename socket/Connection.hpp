@@ -4,7 +4,8 @@
 #include <boost/asio.hpp>
 #include <memory>
 #include <vector>
-
+#include <unordered_map>
+#include <functional>
 using namespace boost;
 
 
@@ -13,8 +14,12 @@ public:
     Connection(asio::ip::tcp::socket && socket);
     void read();
     void write();
+    void loginHandler();
+    //void messageHandler();
 
 private:
+    std::unordered_map<std::string, std::function<void()>> handlers;
+    asio::streambuf mReadBuffer;
     asio::streambuf mWriteBuffer;  
     asio::ip::tcp::socket mSocket;
 };

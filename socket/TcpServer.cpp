@@ -15,9 +15,10 @@ void TcpServer::doAccept() {
     acceptor.async_accept(
     [this](system::error_code errorCode, asio::ip::tcp::socket socket){
         if (!errorCode) {
-            std::make_shared<Connection>(std::move(socket))->write();
+            auto conn = std::make_shared<Connection>(std::move(socket));
+            conn->read();
         }
-        //doAccept();
+        doAccept();
     }
     );
 }

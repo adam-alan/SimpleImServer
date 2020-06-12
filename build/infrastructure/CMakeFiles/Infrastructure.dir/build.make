@@ -129,16 +129,57 @@ infrastructure/CMakeFiles/Infrastructure.dir/model/UserMsgRelation.cc.s: cmake_f
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Infrastructure.dir/model/UserMsgRelation.cc.s"
 	cd /home/loadstar/VscodeCpp/SimpleImServer/build/infrastructure && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/loadstar/VscodeCpp/SimpleImServer/infrastructure/model/UserMsgRelation.cc -o CMakeFiles/Infrastructure.dir/model/UserMsgRelation.cc.s
 
-Infrastructure: infrastructure/CMakeFiles/Infrastructure.dir/model/Group.cc.o
-Infrastructure: infrastructure/CMakeFiles/Infrastructure.dir/model/User.cc.o
-Infrastructure: infrastructure/CMakeFiles/Infrastructure.dir/model/UserMsgContent.cc.o
-Infrastructure: infrastructure/CMakeFiles/Infrastructure.dir/model/UserMsgRelation.cc.o
-Infrastructure: infrastructure/CMakeFiles/Infrastructure.dir/build.make
+infrastructure/CMakeFiles/Infrastructure.dir/messages/LoginRequest.cc.o: infrastructure/CMakeFiles/Infrastructure.dir/flags.make
+infrastructure/CMakeFiles/Infrastructure.dir/messages/LoginRequest.cc.o: ../infrastructure/messages/LoginRequest.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/loadstar/VscodeCpp/SimpleImServer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object infrastructure/CMakeFiles/Infrastructure.dir/messages/LoginRequest.cc.o"
+	cd /home/loadstar/VscodeCpp/SimpleImServer/build/infrastructure && /usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Infrastructure.dir/messages/LoginRequest.cc.o -c /home/loadstar/VscodeCpp/SimpleImServer/infrastructure/messages/LoginRequest.cc
 
-.PHONY : Infrastructure
+infrastructure/CMakeFiles/Infrastructure.dir/messages/LoginRequest.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Infrastructure.dir/messages/LoginRequest.cc.i"
+	cd /home/loadstar/VscodeCpp/SimpleImServer/build/infrastructure && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/loadstar/VscodeCpp/SimpleImServer/infrastructure/messages/LoginRequest.cc > CMakeFiles/Infrastructure.dir/messages/LoginRequest.cc.i
+
+infrastructure/CMakeFiles/Infrastructure.dir/messages/LoginRequest.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Infrastructure.dir/messages/LoginRequest.cc.s"
+	cd /home/loadstar/VscodeCpp/SimpleImServer/build/infrastructure && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/loadstar/VscodeCpp/SimpleImServer/infrastructure/messages/LoginRequest.cc -o CMakeFiles/Infrastructure.dir/messages/LoginRequest.cc.s
+
+infrastructure/CMakeFiles/Infrastructure.dir/messages/loginResponce.cc.o: infrastructure/CMakeFiles/Infrastructure.dir/flags.make
+infrastructure/CMakeFiles/Infrastructure.dir/messages/loginResponce.cc.o: ../infrastructure/messages/loginResponce.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/loadstar/VscodeCpp/SimpleImServer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object infrastructure/CMakeFiles/Infrastructure.dir/messages/loginResponce.cc.o"
+	cd /home/loadstar/VscodeCpp/SimpleImServer/build/infrastructure && /usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Infrastructure.dir/messages/loginResponce.cc.o -c /home/loadstar/VscodeCpp/SimpleImServer/infrastructure/messages/loginResponce.cc
+
+infrastructure/CMakeFiles/Infrastructure.dir/messages/loginResponce.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Infrastructure.dir/messages/loginResponce.cc.i"
+	cd /home/loadstar/VscodeCpp/SimpleImServer/build/infrastructure && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/loadstar/VscodeCpp/SimpleImServer/infrastructure/messages/loginResponce.cc > CMakeFiles/Infrastructure.dir/messages/loginResponce.cc.i
+
+infrastructure/CMakeFiles/Infrastructure.dir/messages/loginResponce.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Infrastructure.dir/messages/loginResponce.cc.s"
+	cd /home/loadstar/VscodeCpp/SimpleImServer/build/infrastructure && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/loadstar/VscodeCpp/SimpleImServer/infrastructure/messages/loginResponce.cc -o CMakeFiles/Infrastructure.dir/messages/loginResponce.cc.s
+
+# Object files for target Infrastructure
+Infrastructure_OBJECTS = \
+"CMakeFiles/Infrastructure.dir/model/Group.cc.o" \
+"CMakeFiles/Infrastructure.dir/model/User.cc.o" \
+"CMakeFiles/Infrastructure.dir/model/UserMsgContent.cc.o" \
+"CMakeFiles/Infrastructure.dir/model/UserMsgRelation.cc.o" \
+"CMakeFiles/Infrastructure.dir/messages/LoginRequest.cc.o" \
+"CMakeFiles/Infrastructure.dir/messages/loginResponce.cc.o"
+
+# External object files for target Infrastructure
+Infrastructure_EXTERNAL_OBJECTS =
+
+infrastructure/libInfrastructure.so: infrastructure/CMakeFiles/Infrastructure.dir/model/Group.cc.o
+infrastructure/libInfrastructure.so: infrastructure/CMakeFiles/Infrastructure.dir/model/User.cc.o
+infrastructure/libInfrastructure.so: infrastructure/CMakeFiles/Infrastructure.dir/model/UserMsgContent.cc.o
+infrastructure/libInfrastructure.so: infrastructure/CMakeFiles/Infrastructure.dir/model/UserMsgRelation.cc.o
+infrastructure/libInfrastructure.so: infrastructure/CMakeFiles/Infrastructure.dir/messages/LoginRequest.cc.o
+infrastructure/libInfrastructure.so: infrastructure/CMakeFiles/Infrastructure.dir/messages/loginResponce.cc.o
+infrastructure/libInfrastructure.so: infrastructure/CMakeFiles/Infrastructure.dir/build.make
+infrastructure/libInfrastructure.so: infrastructure/CMakeFiles/Infrastructure.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/loadstar/VscodeCpp/SimpleImServer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX shared library libInfrastructure.so"
+	cd /home/loadstar/VscodeCpp/SimpleImServer/build/infrastructure && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Infrastructure.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-infrastructure/CMakeFiles/Infrastructure.dir/build: Infrastructure
+infrastructure/CMakeFiles/Infrastructure.dir/build: infrastructure/libInfrastructure.so
 
 .PHONY : infrastructure/CMakeFiles/Infrastructure.dir/build
 

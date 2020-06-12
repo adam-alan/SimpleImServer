@@ -6,11 +6,19 @@
 
 #IncludeRegexTransform: 
 
+/home/loadstar/VscodeCpp/SimpleImServer/infrastructure/messages/LoginRequest.hpp
+string
+-
+iostream
+-
+
 /home/loadstar/VscodeCpp/SimpleImServer/socket/Connection.cc
 Connection.hpp
 /home/loadstar/VscodeCpp/SimpleImServer/socket/Connection.hpp
 iostream
 -
+../infrastructure/messages/LoginRequest.hpp
+/home/loadstar/VscodeCpp/SimpleImServer/infrastructure/messages/LoginRequest.hpp
 
 /home/loadstar/VscodeCpp/SimpleImServer/socket/Connection.hpp
 boost/asio.hpp
@@ -18,5 +26,9 @@ boost/asio.hpp
 memory
 -
 vector
+-
+unordered_map
+-
+functional
 -
 

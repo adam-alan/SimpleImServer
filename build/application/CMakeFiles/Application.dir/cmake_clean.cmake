@@ -1,5 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/Application.dir/DatabaseService.cc.o"
+  "libApplication.pdb"
+  "libApplication.so"
 )
 
 # Per-language clean rules from dependency scanning.

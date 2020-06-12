@@ -15,6 +15,8 @@ struct User {
   std::string password;
   std::string registerTime;
   std::string updateTime;
+
+  friend std::ostream &operator<<(std::ostream & out,const User & user);
 };
   
 

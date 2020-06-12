@@ -14,6 +14,9 @@ set(CMAKE_CXX_TARGET_INCLUDE_PATH
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
+  "/home/loadstar/VscodeCpp/SimpleImServer/build/infrastructure/CMakeFiles/Infrastructure.dir/DependInfo.cmake"
+  "/home/loadstar/VscodeCpp/SimpleImServer/build/application/CMakeFiles/Application.dir/DependInfo.cmake"
+  "/home/loadstar/VscodeCpp/SimpleImServer/build/socket/CMakeFiles/Socket.dir/DependInfo.cmake"
   )
 
 # Fortran module output directory.
