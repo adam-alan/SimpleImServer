@@ -2,16 +2,21 @@
 #define TCP_SERVER_HPP
 
 #include <boost/asio.hpp>
+#include <functional>
+#include "Connection.hpp"
+
 using namespace boost;
 
 
 class TcpServer{
 public:
-    TcpServer(asio::io_context & ioContext, short port);
+    TcpServer(uint16_t port);
     void start();
-    void doAccept();
-private:
-    asio::ip::tcp::acceptor acceptor;
+    void setAcceptHandle(std::function<void(Acceptor&)> acceptHandle);
+protected:
+    asio::io_context mIoContext;
+    std::function<void(Acceptor&)> mAcceptHandle;
+    Acceptor mAcceptor;
 };
 
 

@@ -75,14 +75,14 @@ CMAKE_BINARY_DIR = /home/loadstar/VscodeCpp/SimpleImServer/build
 # The main recursive "all" target.
 all: CMakeFiles/SimpleImServer.dir/all
 all: infrastructure/all
-all: application/all
+all: database/all
 all: socket/all
 
 .PHONY : all
 
 # The main recursive "preinstall" target.
 preinstall: infrastructure/preinstall
-preinstall: application/preinstall
+preinstall: database/preinstall
 preinstall: socket/preinstall
 
 .PHONY : preinstall
@@ -118,28 +118,28 @@ clean: CMakeFiles/ContinuousTest.dir/clean
 clean: CMakeFiles/ContinuousSubmit.dir/clean
 clean: CMakeFiles/SimpleImServer.dir/clean
 clean: infrastructure/clean
-clean: application/clean
+clean: database/clean
 clean: socket/clean
 
 .PHONY : clean
 
 #=============================================================================
-# Directory level rules for directory application
+# Directory level rules for directory database
 
 # Recursive "all" directory target.
-application/all: application/CMakeFiles/Application.dir/all
+database/all: database/CMakeFiles/database.dir/all
 
-.PHONY : application/all
+.PHONY : database/all
 
 # Recursive "preinstall" directory target.
-application/preinstall:
+database/preinstall:
 
-.PHONY : application/preinstall
+.PHONY : database/preinstall
 
 # Recursive "clean" directory target.
-application/clean: application/CMakeFiles/Application.dir/clean
+database/clean: database/CMakeFiles/database.dir/clean
 
-.PHONY : application/clean
+.PHONY : database/clean
 
 #=============================================================================
 # Directory level rules for directory infrastructure
@@ -938,16 +938,16 @@ CMakeFiles/ContinuousSubmit.dir/clean:
 
 # All Build rule for target.
 CMakeFiles/SimpleImServer.dir/all: infrastructure/CMakeFiles/Infrastructure.dir/all
-CMakeFiles/SimpleImServer.dir/all: application/CMakeFiles/Application.dir/all
+CMakeFiles/SimpleImServer.dir/all: database/CMakeFiles/database.dir/all
 CMakeFiles/SimpleImServer.dir/all: socket/CMakeFiles/Socket.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/SimpleImServer.dir/build.make CMakeFiles/SimpleImServer.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/SimpleImServer.dir/build.make CMakeFiles/SimpleImServer.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/loadstar/VscodeCpp/SimpleImServer/build/CMakeFiles --progress-num=10,11 "Built target SimpleImServer"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/loadstar/VscodeCpp/SimpleImServer/build/CMakeFiles --progress-num=9,10 "Built target SimpleImServer"
 .PHONY : CMakeFiles/SimpleImServer.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/SimpleImServer.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/loadstar/VscodeCpp/SimpleImServer/build/CMakeFiles 14
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/loadstar/VscodeCpp/SimpleImServer/build/CMakeFiles 17
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/SimpleImServer.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/loadstar/VscodeCpp/SimpleImServer/build/CMakeFiles 0
 .PHONY : CMakeFiles/SimpleImServer.dir/rule
@@ -969,12 +969,12 @@ CMakeFiles/SimpleImServer.dir/clean:
 infrastructure/CMakeFiles/Infrastructure.dir/all:
 	$(MAKE) $(MAKESILENT) -f infrastructure/CMakeFiles/Infrastructure.dir/build.make infrastructure/CMakeFiles/Infrastructure.dir/depend
 	$(MAKE) $(MAKESILENT) -f infrastructure/CMakeFiles/Infrastructure.dir/build.make infrastructure/CMakeFiles/Infrastructure.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/loadstar/VscodeCpp/SimpleImServer/build/CMakeFiles --progress-num=3,4,5,6,7,8,9 "Built target Infrastructure"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/loadstar/VscodeCpp/SimpleImServer/build/CMakeFiles --progress-num=1,2,3,4,5,6,7,8 "Built target Infrastructure"
 .PHONY : infrastructure/CMakeFiles/Infrastructure.dir/all
 
 # Build rule for subdir invocation for target.
 infrastructure/CMakeFiles/Infrastructure.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/loadstar/VscodeCpp/SimpleImServer/build/CMakeFiles 7
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/loadstar/VscodeCpp/SimpleImServer/build/CMakeFiles 8
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 infrastructure/CMakeFiles/Infrastructure.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/loadstar/VscodeCpp/SimpleImServer/build/CMakeFiles 0
 .PHONY : infrastructure/CMakeFiles/Infrastructure.dir/rule
@@ -990,31 +990,31 @@ infrastructure/CMakeFiles/Infrastructure.dir/clean:
 .PHONY : infrastructure/CMakeFiles/Infrastructure.dir/clean
 
 #=============================================================================
-# Target rules for target application/CMakeFiles/Application.dir
+# Target rules for target database/CMakeFiles/database.dir
 
 # All Build rule for target.
-application/CMakeFiles/Application.dir/all:
-	$(MAKE) $(MAKESILENT) -f application/CMakeFiles/Application.dir/build.make application/CMakeFiles/Application.dir/depend
-	$(MAKE) $(MAKESILENT) -f application/CMakeFiles/Application.dir/build.make application/CMakeFiles/Application.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/loadstar/VscodeCpp/SimpleImServer/build/CMakeFiles --progress-num=1,2 "Built target Application"
-.PHONY : application/CMakeFiles/Application.dir/all
+database/CMakeFiles/database.dir/all:
+	$(MAKE) $(MAKESILENT) -f database/CMakeFiles/database.dir/build.make database/CMakeFiles/database.dir/depend
+	$(MAKE) $(MAKESILENT) -f database/CMakeFiles/database.dir/build.make database/CMakeFiles/database.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/loadstar/VscodeCpp/SimpleImServer/build/CMakeFiles --progress-num=14,15,16,17 "Built target database"
+.PHONY : database/CMakeFiles/database.dir/all
 
 # Build rule for subdir invocation for target.
-application/CMakeFiles/Application.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/loadstar/VscodeCpp/SimpleImServer/build/CMakeFiles 2
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 application/CMakeFiles/Application.dir/all
+database/CMakeFiles/database.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/loadstar/VscodeCpp/SimpleImServer/build/CMakeFiles 4
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 database/CMakeFiles/database.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/loadstar/VscodeCpp/SimpleImServer/build/CMakeFiles 0
-.PHONY : application/CMakeFiles/Application.dir/rule
+.PHONY : database/CMakeFiles/database.dir/rule
 
 # Convenience name for target.
-Application: application/CMakeFiles/Application.dir/rule
+database: database/CMakeFiles/database.dir/rule
 
-.PHONY : Application
+.PHONY : database
 
 # clean rule for target.
-application/CMakeFiles/Application.dir/clean:
-	$(MAKE) $(MAKESILENT) -f application/CMakeFiles/Application.dir/build.make application/CMakeFiles/Application.dir/clean
-.PHONY : application/CMakeFiles/Application.dir/clean
+database/CMakeFiles/database.dir/clean:
+	$(MAKE) $(MAKESILENT) -f database/CMakeFiles/database.dir/build.make database/CMakeFiles/database.dir/clean
+.PHONY : database/CMakeFiles/database.dir/clean
 
 #=============================================================================
 # Target rules for target socket/CMakeFiles/Socket.dir
@@ -1023,7 +1023,7 @@ application/CMakeFiles/Application.dir/clean:
 socket/CMakeFiles/Socket.dir/all:
 	$(MAKE) $(MAKESILENT) -f socket/CMakeFiles/Socket.dir/build.make socket/CMakeFiles/Socket.dir/depend
 	$(MAKE) $(MAKESILENT) -f socket/CMakeFiles/Socket.dir/build.make socket/CMakeFiles/Socket.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/loadstar/VscodeCpp/SimpleImServer/build/CMakeFiles --progress-num=12,13,14 "Built target Socket"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/loadstar/VscodeCpp/SimpleImServer/build/CMakeFiles --progress-num=11,12,13 "Built target Socket"
 .PHONY : socket/CMakeFiles/Socket.dir/all
 
 # Build rule for subdir invocation for target.

@@ -8,10 +8,10 @@ set(CMAKE_DEPENDS_GENERATOR "Unix Makefiles")
 set(CMAKE_MAKEFILE_DEPENDS
   "CMakeCache.txt"
   "../CMakeLists.txt"
-  "../application/CMakeLists.txt"
   "CMakeFiles/3.17.3/CMakeCCompiler.cmake"
   "CMakeFiles/3.17.3/CMakeCXXCompiler.cmake"
   "CMakeFiles/3.17.3/CMakeSystem.cmake"
+  "../database/CMakeLists.txt"
   "../infrastructure/CMakeLists.txt"
   "../socket/CMakeLists.txt"
   "/usr/share/cmake-3.17/Modules/CMakeCInformation.cmake"
@@ -55,7 +55,7 @@ set(CMAKE_MAKEFILE_PRODUCTS
   "CPackSourceConfig.cmake"
   "CMakeFiles/CMakeDirectoryInformation.cmake"
   "infrastructure/CMakeFiles/CMakeDirectoryInformation.cmake"
-  "application/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "database/CMakeFiles/CMakeDirectoryInformation.cmake"
   "socket/CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 
@@ -91,6 +91,6 @@ set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/ContinuousSubmit.dir/DependInfo.cmake"
   "CMakeFiles/SimpleImServer.dir/DependInfo.cmake"
   "infrastructure/CMakeFiles/Infrastructure.dir/DependInfo.cmake"
-  "application/CMakeFiles/Application.dir/DependInfo.cmake"
+  "database/CMakeFiles/database.dir/DependInfo.cmake"
   "socket/CMakeFiles/Socket.dir/DependInfo.cmake"
   )

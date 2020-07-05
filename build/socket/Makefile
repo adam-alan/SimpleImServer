@@ -178,32 +178,32 @@ Socket/fast:
 	cd /home/loadstar/VscodeCpp/SimpleImServer/build && $(MAKE) $(MAKESILENT) -f socket/CMakeFiles/Socket.dir/build.make socket/CMakeFiles/Socket.dir/build
 .PHONY : Socket/fast
 
-Connection.o: Connection.cc.o
+Connection.o: Connection.cpp.o
 
 .PHONY : Connection.o
 
 # target to build an object file
-Connection.cc.o:
-	cd /home/loadstar/VscodeCpp/SimpleImServer/build && $(MAKE) $(MAKESILENT) -f socket/CMakeFiles/Socket.dir/build.make socket/CMakeFiles/Socket.dir/Connection.cc.o
-.PHONY : Connection.cc.o
+Connection.cpp.o:
+	cd /home/loadstar/VscodeCpp/SimpleImServer/build && $(MAKE) $(MAKESILENT) -f socket/CMakeFiles/Socket.dir/build.make socket/CMakeFiles/Socket.dir/Connection.cpp.o
+.PHONY : Connection.cpp.o
 
-Connection.i: Connection.cc.i
+Connection.i: Connection.cpp.i
 
 .PHONY : Connection.i
 
 # target to preprocess a source file
-Connection.cc.i:
-	cd /home/loadstar/VscodeCpp/SimpleImServer/build && $(MAKE) $(MAKESILENT) -f socket/CMakeFiles/Socket.dir/build.make socket/CMakeFiles/Socket.dir/Connection.cc.i
-.PHONY : Connection.cc.i
+Connection.cpp.i:
+	cd /home/loadstar/VscodeCpp/SimpleImServer/build && $(MAKE) $(MAKESILENT) -f socket/CMakeFiles/Socket.dir/build.make socket/CMakeFiles/Socket.dir/Connection.cpp.i
+.PHONY : Connection.cpp.i
 
-Connection.s: Connection.cc.s
+Connection.s: Connection.cpp.s
 
 .PHONY : Connection.s
 
 # target to generate assembly for a file
-Connection.cc.s:
-	cd /home/loadstar/VscodeCpp/SimpleImServer/build && $(MAKE) $(MAKESILENT) -f socket/CMakeFiles/Socket.dir/build.make socket/CMakeFiles/Socket.dir/Connection.cc.s
-.PHONY : Connection.cc.s
+Connection.cpp.s:
+	cd /home/loadstar/VscodeCpp/SimpleImServer/build && $(MAKE) $(MAKESILENT) -f socket/CMakeFiles/Socket.dir/build.make socket/CMakeFiles/Socket.dir/Connection.cpp.s
+.PHONY : Connection.cpp.s
 
 TcpServer.o: TcpServer.cpp.o
 

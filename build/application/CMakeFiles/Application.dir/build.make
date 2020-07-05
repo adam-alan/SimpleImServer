@@ -77,30 +77,60 @@ include application/CMakeFiles/Application.dir/progress.make
 # Include the compile flags for this target's objects.
 include application/CMakeFiles/Application.dir/flags.make
 
-application/CMakeFiles/Application.dir/DatabaseService.cc.o: application/CMakeFiles/Application.dir/flags.make
-application/CMakeFiles/Application.dir/DatabaseService.cc.o: ../application/DatabaseService.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/loadstar/VscodeCpp/SimpleImServer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object application/CMakeFiles/Application.dir/DatabaseService.cc.o"
-	cd /home/loadstar/VscodeCpp/SimpleImServer/build/application && /usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Application.dir/DatabaseService.cc.o -c /home/loadstar/VscodeCpp/SimpleImServer/application/DatabaseService.cc
+application/CMakeFiles/Application.dir/DatabaseService.cpp.o: application/CMakeFiles/Application.dir/flags.make
+application/CMakeFiles/Application.dir/DatabaseService.cpp.o: ../application/DatabaseService.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/loadstar/VscodeCpp/SimpleImServer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object application/CMakeFiles/Application.dir/DatabaseService.cpp.o"
+	cd /home/loadstar/VscodeCpp/SimpleImServer/build/application && /usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Application.dir/DatabaseService.cpp.o -c /home/loadstar/VscodeCpp/SimpleImServer/application/DatabaseService.cpp
 
-application/CMakeFiles/Application.dir/DatabaseService.cc.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Application.dir/DatabaseService.cc.i"
-	cd /home/loadstar/VscodeCpp/SimpleImServer/build/application && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/loadstar/VscodeCpp/SimpleImServer/application/DatabaseService.cc > CMakeFiles/Application.dir/DatabaseService.cc.i
+application/CMakeFiles/Application.dir/DatabaseService.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Application.dir/DatabaseService.cpp.i"
+	cd /home/loadstar/VscodeCpp/SimpleImServer/build/application && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/loadstar/VscodeCpp/SimpleImServer/application/DatabaseService.cpp > CMakeFiles/Application.dir/DatabaseService.cpp.i
 
-application/CMakeFiles/Application.dir/DatabaseService.cc.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Application.dir/DatabaseService.cc.s"
-	cd /home/loadstar/VscodeCpp/SimpleImServer/build/application && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/loadstar/VscodeCpp/SimpleImServer/application/DatabaseService.cc -o CMakeFiles/Application.dir/DatabaseService.cc.s
+application/CMakeFiles/Application.dir/DatabaseService.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Application.dir/DatabaseService.cpp.s"
+	cd /home/loadstar/VscodeCpp/SimpleImServer/build/application && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/loadstar/VscodeCpp/SimpleImServer/application/DatabaseService.cpp -o CMakeFiles/Application.dir/DatabaseService.cpp.s
+
+application/CMakeFiles/Application.dir/UserRelationService.cpp.o: application/CMakeFiles/Application.dir/flags.make
+application/CMakeFiles/Application.dir/UserRelationService.cpp.o: ../application/UserRelationService.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/loadstar/VscodeCpp/SimpleImServer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object application/CMakeFiles/Application.dir/UserRelationService.cpp.o"
+	cd /home/loadstar/VscodeCpp/SimpleImServer/build/application && /usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Application.dir/UserRelationService.cpp.o -c /home/loadstar/VscodeCpp/SimpleImServer/application/UserRelationService.cpp
+
+application/CMakeFiles/Application.dir/UserRelationService.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Application.dir/UserRelationService.cpp.i"
+	cd /home/loadstar/VscodeCpp/SimpleImServer/build/application && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/loadstar/VscodeCpp/SimpleImServer/application/UserRelationService.cpp > CMakeFiles/Application.dir/UserRelationService.cpp.i
+
+application/CMakeFiles/Application.dir/UserRelationService.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Application.dir/UserRelationService.cpp.s"
+	cd /home/loadstar/VscodeCpp/SimpleImServer/build/application && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/loadstar/VscodeCpp/SimpleImServer/application/UserRelationService.cpp -o CMakeFiles/Application.dir/UserRelationService.cpp.s
+
+application/CMakeFiles/Application.dir/UserService.cpp.o: application/CMakeFiles/Application.dir/flags.make
+application/CMakeFiles/Application.dir/UserService.cpp.o: ../application/UserService.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/loadstar/VscodeCpp/SimpleImServer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object application/CMakeFiles/Application.dir/UserService.cpp.o"
+	cd /home/loadstar/VscodeCpp/SimpleImServer/build/application && /usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Application.dir/UserService.cpp.o -c /home/loadstar/VscodeCpp/SimpleImServer/application/UserService.cpp
+
+application/CMakeFiles/Application.dir/UserService.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Application.dir/UserService.cpp.i"
+	cd /home/loadstar/VscodeCpp/SimpleImServer/build/application && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/loadstar/VscodeCpp/SimpleImServer/application/UserService.cpp > CMakeFiles/Application.dir/UserService.cpp.i
+
+application/CMakeFiles/Application.dir/UserService.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Application.dir/UserService.cpp.s"
+	cd /home/loadstar/VscodeCpp/SimpleImServer/build/application && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/loadstar/VscodeCpp/SimpleImServer/application/UserService.cpp -o CMakeFiles/Application.dir/UserService.cpp.s
 
 # Object files for target Application
 Application_OBJECTS = \
-"CMakeFiles/Application.dir/DatabaseService.cc.o"
+"CMakeFiles/Application.dir/DatabaseService.cpp.o" \
+"CMakeFiles/Application.dir/UserRelationService.cpp.o" \
+"CMakeFiles/Application.dir/UserService.cpp.o"
 
 # External object files for target Application
 Application_EXTERNAL_OBJECTS =
 
-application/libApplication.so: application/CMakeFiles/Application.dir/DatabaseService.cc.o
+application/libApplication.so: application/CMakeFiles/Application.dir/DatabaseService.cpp.o
+application/libApplication.so: application/CMakeFiles/Application.dir/UserRelationService.cpp.o
+application/libApplication.so: application/CMakeFiles/Application.dir/UserService.cpp.o
 application/libApplication.so: application/CMakeFiles/Application.dir/build.make
 application/libApplication.so: application/CMakeFiles/Application.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/loadstar/VscodeCpp/SimpleImServer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX shared library libApplication.so"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/loadstar/VscodeCpp/SimpleImServer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX shared library libApplication.so"
 	cd /home/loadstar/VscodeCpp/SimpleImServer/build/application && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Application.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

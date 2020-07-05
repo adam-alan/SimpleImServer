@@ -100,7 +100,7 @@ SimpleImServer_EXTERNAL_OBJECTS =
 SimpleImServer: CMakeFiles/SimpleImServer.dir/main.cpp.o
 SimpleImServer: CMakeFiles/SimpleImServer.dir/build.make
 SimpleImServer: infrastructure/libInfrastructure.so
-SimpleImServer: application/libApplication.so
+SimpleImServer: database/libdatabase.so
 SimpleImServer: socket/libSocket.so
 SimpleImServer: CMakeFiles/SimpleImServer.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/loadstar/VscodeCpp/SimpleImServer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable SimpleImServer"

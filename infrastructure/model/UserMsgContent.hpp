@@ -5,9 +5,9 @@
 
 
 struct UserMsgContent {
-    std::size_t msgId;
-    std::size_t senderId;
-    std::size_t recipientId;
+    uint64_t msgId;
+    uint64_t senderId;
+    uint64_t recipientId;
     bool isSentBox;
     std::string content;
     std::string createTime;

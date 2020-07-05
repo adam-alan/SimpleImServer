@@ -3,8 +3,7 @@
         {
             "name": "Linux",
             "includePath": [
-                "${workspaceFolder}/**",
-                "/home/loadstar/VscodeCpp/SimpleImServer/**"
+                "${workspaceFolder}/**"
             ],
             "defines": [],
             "compilerPath": "/usr/bin/clang",
@@ -15,9 +14,7 @@
             "compilerArgs": [],
             "browse": {
                 "path": [
-                    "${workspaceFolder}/**",
-                    "/home/loadstar/VscodeCpp/**",
-                    "/home/loadstar/VscodeCpp/SimpleImServer/**"
+                    "${workspaceFolder}/**"
                 ],
                 "limitSymbolsToIncludedHeaders": true
             }

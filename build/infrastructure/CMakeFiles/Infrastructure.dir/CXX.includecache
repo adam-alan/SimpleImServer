@@ -6,13 +6,33 @@
 
 #IncludeRegexTransform: 
 
-/home/loadstar/VscodeCpp/SimpleImServer/infrastructure/model/User.cc
+/home/loadstar/VscodeCpp/SimpleImServer/infrastructure/messages/LoginResponce.hpp
+string
+-
+../model/User.hpp
+/home/loadstar/VscodeCpp/SimpleImServer/infrastructure/model/User.hpp
+
+/home/loadstar/VscodeCpp/SimpleImServer/infrastructure/messages/loginResponce.cpp
+LoginResponce.hpp
+/home/loadstar/VscodeCpp/SimpleImServer/infrastructure/messages/LoginResponce.hpp
+
+/home/loadstar/VscodeCpp/SimpleImServer/infrastructure/model/User.cpp
 User.hpp
 /home/loadstar/VscodeCpp/SimpleImServer/infrastructure/model/User.hpp
 
 /home/loadstar/VscodeCpp/SimpleImServer/infrastructure/model/User.hpp
 iostream
 -
+string
+-
+
+/home/loadstar/VscodeCpp/SimpleImServer/infrastructure/model/UserRelation.cpp
+UserRelation.hpp
+/home/loadstar/VscodeCpp/SimpleImServer/infrastructure/model/UserRelation.hpp
+iostream
+-
+
+/home/loadstar/VscodeCpp/SimpleImServer/infrastructure/model/UserRelation.hpp
 string
 -
 

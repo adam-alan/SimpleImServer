@@ -1,10 +1,11 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/Infrastructure.dir/messages/LoginRequest.cc.o"
-  "CMakeFiles/Infrastructure.dir/messages/loginResponce.cc.o"
-  "CMakeFiles/Infrastructure.dir/model/Group.cc.o"
-  "CMakeFiles/Infrastructure.dir/model/User.cc.o"
-  "CMakeFiles/Infrastructure.dir/model/UserMsgContent.cc.o"
-  "CMakeFiles/Infrastructure.dir/model/UserMsgRelation.cc.o"
+  "CMakeFiles/Infrastructure.dir/messages/LoginRequest.cpp.o"
+  "CMakeFiles/Infrastructure.dir/messages/loginResponce.cpp.o"
+  "CMakeFiles/Infrastructure.dir/model/Group.cpp.o"
+  "CMakeFiles/Infrastructure.dir/model/User.cpp.o"
+  "CMakeFiles/Infrastructure.dir/model/UserMsgContent.cpp.o"
+  "CMakeFiles/Infrastructure.dir/model/UserMsgRelation.cpp.o"
+  "CMakeFiles/Infrastructure.dir/model/UserRelation.cpp.o"
   "libInfrastructure.pdb"
   "libInfrastructure.so"
 )

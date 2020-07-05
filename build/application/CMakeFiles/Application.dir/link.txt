@@ -1,1 +1,1 @@
-/usr/bin/g++ -fPIC -g  -shared -Wl,-soname,libApplication.so -o libApplication.so CMakeFiles/Application.dir/DatabaseService.cc.o 
+/usr/bin/g++ -fPIC -g  -shared -Wl,-soname,libApplication.so -o libApplication.so CMakeFiles/Application.dir/DatabaseService.cpp.o CMakeFiles/Application.dir/UserRelationService.cpp.o CMakeFiles/Application.dir/UserService.cpp.o 

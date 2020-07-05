@@ -178,32 +178,86 @@ Application/fast:
 	cd /home/loadstar/VscodeCpp/SimpleImServer/build && $(MAKE) $(MAKESILENT) -f application/CMakeFiles/Application.dir/build.make application/CMakeFiles/Application.dir/build
 .PHONY : Application/fast
 
-DatabaseService.o: DatabaseService.cc.o
+DatabaseService.o: DatabaseService.cpp.o
 
 .PHONY : DatabaseService.o
 
 # target to build an object file
-DatabaseService.cc.o:
-	cd /home/loadstar/VscodeCpp/SimpleImServer/build && $(MAKE) $(MAKESILENT) -f application/CMakeFiles/Application.dir/build.make application/CMakeFiles/Application.dir/DatabaseService.cc.o
-.PHONY : DatabaseService.cc.o
+DatabaseService.cpp.o:
+	cd /home/loadstar/VscodeCpp/SimpleImServer/build && $(MAKE) $(MAKESILENT) -f application/CMakeFiles/Application.dir/build.make application/CMakeFiles/Application.dir/DatabaseService.cpp.o
+.PHONY : DatabaseService.cpp.o
 
-DatabaseService.i: DatabaseService.cc.i
+DatabaseService.i: DatabaseService.cpp.i
 
 .PHONY : DatabaseService.i
 
 # target to preprocess a source file
-DatabaseService.cc.i:
-	cd /home/loadstar/VscodeCpp/SimpleImServer/build && $(MAKE) $(MAKESILENT) -f application/CMakeFiles/Application.dir/build.make application/CMakeFiles/Application.dir/DatabaseService.cc.i
-.PHONY : DatabaseService.cc.i
+DatabaseService.cpp.i:
+	cd /home/loadstar/VscodeCpp/SimpleImServer/build && $(MAKE) $(MAKESILENT) -f application/CMakeFiles/Application.dir/build.make application/CMakeFiles/Application.dir/DatabaseService.cpp.i
+.PHONY : DatabaseService.cpp.i
 
-DatabaseService.s: DatabaseService.cc.s
+DatabaseService.s: DatabaseService.cpp.s
 
 .PHONY : DatabaseService.s
 
 # target to generate assembly for a file
-DatabaseService.cc.s:
-	cd /home/loadstar/VscodeCpp/SimpleImServer/build && $(MAKE) $(MAKESILENT) -f application/CMakeFiles/Application.dir/build.make application/CMakeFiles/Application.dir/DatabaseService.cc.s
-.PHONY : DatabaseService.cc.s
+DatabaseService.cpp.s:
+	cd /home/loadstar/VscodeCpp/SimpleImServer/build && $(MAKE) $(MAKESILENT) -f application/CMakeFiles/Application.dir/build.make application/CMakeFiles/Application.dir/DatabaseService.cpp.s
+.PHONY : DatabaseService.cpp.s
+
+UserRelationService.o: UserRelationService.cpp.o
+
+.PHONY : UserRelationService.o
+
+# target to build an object file
+UserRelationService.cpp.o:
+	cd /home/loadstar/VscodeCpp/SimpleImServer/build && $(MAKE) $(MAKESILENT) -f application/CMakeFiles/Application.dir/build.make application/CMakeFiles/Application.dir/UserRelationService.cpp.o
+.PHONY : UserRelationService.cpp.o
+
+UserRelationService.i: UserRelationService.cpp.i
+
+.PHONY : UserRelationService.i
+
+# target to preprocess a source file
+UserRelationService.cpp.i:
+	cd /home/loadstar/VscodeCpp/SimpleImServer/build && $(MAKE) $(MAKESILENT) -f application/CMakeFiles/Application.dir/build.make application/CMakeFiles/Application.dir/UserRelationService.cpp.i
+.PHONY : UserRelationService.cpp.i
+
+UserRelationService.s: UserRelationService.cpp.s
+
+.PHONY : UserRelationService.s
+
+# target to generate assembly for a file
+UserRelationService.cpp.s:
+	cd /home/loadstar/VscodeCpp/SimpleImServer/build && $(MAKE) $(MAKESILENT) -f application/CMakeFiles/Application.dir/build.make application/CMakeFiles/Application.dir/UserRelationService.cpp.s
+.PHONY : UserRelationService.cpp.s
+
+UserService.o: UserService.cpp.o
+
+.PHONY : UserService.o
+
+# target to build an object file
+UserService.cpp.o:
+	cd /home/loadstar/VscodeCpp/SimpleImServer/build && $(MAKE) $(MAKESILENT) -f application/CMakeFiles/Application.dir/build.make application/CMakeFiles/Application.dir/UserService.cpp.o
+.PHONY : UserService.cpp.o
+
+UserService.i: UserService.cpp.i
+
+.PHONY : UserService.i
+
+# target to preprocess a source file
+UserService.cpp.i:
+	cd /home/loadstar/VscodeCpp/SimpleImServer/build && $(MAKE) $(MAKESILENT) -f application/CMakeFiles/Application.dir/build.make application/CMakeFiles/Application.dir/UserService.cpp.i
+.PHONY : UserService.cpp.i
+
+UserService.s: UserService.cpp.s
+
+.PHONY : UserService.s
+
+# target to generate assembly for a file
+UserService.cpp.s:
+	cd /home/loadstar/VscodeCpp/SimpleImServer/build && $(MAKE) $(MAKESILENT) -f application/CMakeFiles/Application.dir/build.make application/CMakeFiles/Application.dir/UserService.cpp.s
+.PHONY : UserService.cpp.s
 
 # Help Target
 help:
@@ -220,6 +274,12 @@ help:
 	@echo "... DatabaseService.o"
 	@echo "... DatabaseService.i"
 	@echo "... DatabaseService.s"
+	@echo "... UserRelationService.o"
+	@echo "... UserRelationService.i"
+	@echo "... UserRelationService.s"
+	@echo "... UserService.o"
+	@echo "... UserService.i"
+	@echo "... UserService.s"
 .PHONY : help
 
 

@@ -178,167 +178,194 @@ Infrastructure/fast:
 	cd /home/loadstar/VscodeCpp/SimpleImServer/build && $(MAKE) $(MAKESILENT) -f infrastructure/CMakeFiles/Infrastructure.dir/build.make infrastructure/CMakeFiles/Infrastructure.dir/build
 .PHONY : Infrastructure/fast
 
-messages/LoginRequest.o: messages/LoginRequest.cc.o
+messages/LoginRequest.o: messages/LoginRequest.cpp.o
 
 .PHONY : messages/LoginRequest.o
 
 # target to build an object file
-messages/LoginRequest.cc.o:
-	cd /home/loadstar/VscodeCpp/SimpleImServer/build && $(MAKE) $(MAKESILENT) -f infrastructure/CMakeFiles/Infrastructure.dir/build.make infrastructure/CMakeFiles/Infrastructure.dir/messages/LoginRequest.cc.o
-.PHONY : messages/LoginRequest.cc.o
+messages/LoginRequest.cpp.o:
+	cd /home/loadstar/VscodeCpp/SimpleImServer/build && $(MAKE) $(MAKESILENT) -f infrastructure/CMakeFiles/Infrastructure.dir/build.make infrastructure/CMakeFiles/Infrastructure.dir/messages/LoginRequest.cpp.o
+.PHONY : messages/LoginRequest.cpp.o
 
-messages/LoginRequest.i: messages/LoginRequest.cc.i
+messages/LoginRequest.i: messages/LoginRequest.cpp.i
 
 .PHONY : messages/LoginRequest.i
 
 # target to preprocess a source file
-messages/LoginRequest.cc.i:
-	cd /home/loadstar/VscodeCpp/SimpleImServer/build && $(MAKE) $(MAKESILENT) -f infrastructure/CMakeFiles/Infrastructure.dir/build.make infrastructure/CMakeFiles/Infrastructure.dir/messages/LoginRequest.cc.i
-.PHONY : messages/LoginRequest.cc.i
+messages/LoginRequest.cpp.i:
+	cd /home/loadstar/VscodeCpp/SimpleImServer/build && $(MAKE) $(MAKESILENT) -f infrastructure/CMakeFiles/Infrastructure.dir/build.make infrastructure/CMakeFiles/Infrastructure.dir/messages/LoginRequest.cpp.i
+.PHONY : messages/LoginRequest.cpp.i
 
-messages/LoginRequest.s: messages/LoginRequest.cc.s
+messages/LoginRequest.s: messages/LoginRequest.cpp.s
 
 .PHONY : messages/LoginRequest.s
 
 # target to generate assembly for a file
-messages/LoginRequest.cc.s:
-	cd /home/loadstar/VscodeCpp/SimpleImServer/build && $(MAKE) $(MAKESILENT) -f infrastructure/CMakeFiles/Infrastructure.dir/build.make infrastructure/CMakeFiles/Infrastructure.dir/messages/LoginRequest.cc.s
-.PHONY : messages/LoginRequest.cc.s
+messages/LoginRequest.cpp.s:
+	cd /home/loadstar/VscodeCpp/SimpleImServer/build && $(MAKE) $(MAKESILENT) -f infrastructure/CMakeFiles/Infrastructure.dir/build.make infrastructure/CMakeFiles/Infrastructure.dir/messages/LoginRequest.cpp.s
+.PHONY : messages/LoginRequest.cpp.s
 
-messages/loginResponce.o: messages/loginResponce.cc.o
+messages/loginResponce.o: messages/loginResponce.cpp.o
 
 .PHONY : messages/loginResponce.o
 
 # target to build an object file
-messages/loginResponce.cc.o:
-	cd /home/loadstar/VscodeCpp/SimpleImServer/build && $(MAKE) $(MAKESILENT) -f infrastructure/CMakeFiles/Infrastructure.dir/build.make infrastructure/CMakeFiles/Infrastructure.dir/messages/loginResponce.cc.o
-.PHONY : messages/loginResponce.cc.o
+messages/loginResponce.cpp.o:
+	cd /home/loadstar/VscodeCpp/SimpleImServer/build && $(MAKE) $(MAKESILENT) -f infrastructure/CMakeFiles/Infrastructure.dir/build.make infrastructure/CMakeFiles/Infrastructure.dir/messages/loginResponce.cpp.o
+.PHONY : messages/loginResponce.cpp.o
 
-messages/loginResponce.i: messages/loginResponce.cc.i
+messages/loginResponce.i: messages/loginResponce.cpp.i
 
 .PHONY : messages/loginResponce.i
 
 # target to preprocess a source file
-messages/loginResponce.cc.i:
-	cd /home/loadstar/VscodeCpp/SimpleImServer/build && $(MAKE) $(MAKESILENT) -f infrastructure/CMakeFiles/Infrastructure.dir/build.make infrastructure/CMakeFiles/Infrastructure.dir/messages/loginResponce.cc.i
-.PHONY : messages/loginResponce.cc.i
+messages/loginResponce.cpp.i:
+	cd /home/loadstar/VscodeCpp/SimpleImServer/build && $(MAKE) $(MAKESILENT) -f infrastructure/CMakeFiles/Infrastructure.dir/build.make infrastructure/CMakeFiles/Infrastructure.dir/messages/loginResponce.cpp.i
+.PHONY : messages/loginResponce.cpp.i
 
-messages/loginResponce.s: messages/loginResponce.cc.s
+messages/loginResponce.s: messages/loginResponce.cpp.s
 
 .PHONY : messages/loginResponce.s
 
 # target to generate assembly for a file
-messages/loginResponce.cc.s:
-	cd /home/loadstar/VscodeCpp/SimpleImServer/build && $(MAKE) $(MAKESILENT) -f infrastructure/CMakeFiles/Infrastructure.dir/build.make infrastructure/CMakeFiles/Infrastructure.dir/messages/loginResponce.cc.s
-.PHONY : messages/loginResponce.cc.s
+messages/loginResponce.cpp.s:
+	cd /home/loadstar/VscodeCpp/SimpleImServer/build && $(MAKE) $(MAKESILENT) -f infrastructure/CMakeFiles/Infrastructure.dir/build.make infrastructure/CMakeFiles/Infrastructure.dir/messages/loginResponce.cpp.s
+.PHONY : messages/loginResponce.cpp.s
 
-model/Group.o: model/Group.cc.o
+model/Group.o: model/Group.cpp.o
 
 .PHONY : model/Group.o
 
 # target to build an object file
-model/Group.cc.o:
-	cd /home/loadstar/VscodeCpp/SimpleImServer/build && $(MAKE) $(MAKESILENT) -f infrastructure/CMakeFiles/Infrastructure.dir/build.make infrastructure/CMakeFiles/Infrastructure.dir/model/Group.cc.o
-.PHONY : model/Group.cc.o
+model/Group.cpp.o:
+	cd /home/loadstar/VscodeCpp/SimpleImServer/build && $(MAKE) $(MAKESILENT) -f infrastructure/CMakeFiles/Infrastructure.dir/build.make infrastructure/CMakeFiles/Infrastructure.dir/model/Group.cpp.o
+.PHONY : model/Group.cpp.o
 
-model/Group.i: model/Group.cc.i
+model/Group.i: model/Group.cpp.i
 
 .PHONY : model/Group.i
 
 # target to preprocess a source file
-model/Group.cc.i:
-	cd /home/loadstar/VscodeCpp/SimpleImServer/build && $(MAKE) $(MAKESILENT) -f infrastructure/CMakeFiles/Infrastructure.dir/build.make infrastructure/CMakeFiles/Infrastructure.dir/model/Group.cc.i
-.PHONY : model/Group.cc.i
+model/Group.cpp.i:
+	cd /home/loadstar/VscodeCpp/SimpleImServer/build && $(MAKE) $(MAKESILENT) -f infrastructure/CMakeFiles/Infrastructure.dir/build.make infrastructure/CMakeFiles/Infrastructure.dir/model/Group.cpp.i
+.PHONY : model/Group.cpp.i
 
-model/Group.s: model/Group.cc.s
+model/Group.s: model/Group.cpp.s
 
 .PHONY : model/Group.s
 
 # target to generate assembly for a file
-model/Group.cc.s:
-	cd /home/loadstar/VscodeCpp/SimpleImServer/build && $(MAKE) $(MAKESILENT) -f infrastructure/CMakeFiles/Infrastructure.dir/build.make infrastructure/CMakeFiles/Infrastructure.dir/model/Group.cc.s
-.PHONY : model/Group.cc.s
+model/Group.cpp.s:
+	cd /home/loadstar/VscodeCpp/SimpleImServer/build && $(MAKE) $(MAKESILENT) -f infrastructure/CMakeFiles/Infrastructure.dir/build.make infrastructure/CMakeFiles/Infrastructure.dir/model/Group.cpp.s
+.PHONY : model/Group.cpp.s
 
-model/User.o: model/User.cc.o
+model/User.o: model/User.cpp.o
 
 .PHONY : model/User.o
 
 # target to build an object file
-model/User.cc.o:
-	cd /home/loadstar/VscodeCpp/SimpleImServer/build && $(MAKE) $(MAKESILENT) -f infrastructure/CMakeFiles/Infrastructure.dir/build.make infrastructure/CMakeFiles/Infrastructure.dir/model/User.cc.o
-.PHONY : model/User.cc.o
+model/User.cpp.o:
+	cd /home/loadstar/VscodeCpp/SimpleImServer/build && $(MAKE) $(MAKESILENT) -f infrastructure/CMakeFiles/Infrastructure.dir/build.make infrastructure/CMakeFiles/Infrastructure.dir/model/User.cpp.o
+.PHONY : model/User.cpp.o
 
-model/User.i: model/User.cc.i
+model/User.i: model/User.cpp.i
 
 .PHONY : model/User.i
 
 # target to preprocess a source file
-model/User.cc.i:
-	cd /home/loadstar/VscodeCpp/SimpleImServer/build && $(MAKE) $(MAKESILENT) -f infrastructure/CMakeFiles/Infrastructure.dir/build.make infrastructure/CMakeFiles/Infrastructure.dir/model/User.cc.i
-.PHONY : model/User.cc.i
+model/User.cpp.i:
+	cd /home/loadstar/VscodeCpp/SimpleImServer/build && $(MAKE) $(MAKESILENT) -f infrastructure/CMakeFiles/Infrastructure.dir/build.make infrastructure/CMakeFiles/Infrastructure.dir/model/User.cpp.i
+.PHONY : model/User.cpp.i
 
-model/User.s: model/User.cc.s
+model/User.s: model/User.cpp.s
 
 .PHONY : model/User.s
 
 # target to generate assembly for a file
-model/User.cc.s:
-	cd /home/loadstar/VscodeCpp/SimpleImServer/build && $(MAKE) $(MAKESILENT) -f infrastructure/CMakeFiles/Infrastructure.dir/build.make infrastructure/CMakeFiles/Infrastructure.dir/model/User.cc.s
-.PHONY : model/User.cc.s
+model/User.cpp.s:
+	cd /home/loadstar/VscodeCpp/SimpleImServer/build && $(MAKE) $(MAKESILENT) -f infrastructure/CMakeFiles/Infrastructure.dir/build.make infrastructure/CMakeFiles/Infrastructure.dir/model/User.cpp.s
+.PHONY : model/User.cpp.s
 
-model/UserMsgContent.o: model/UserMsgContent.cc.o
+model/UserMsgContent.o: model/UserMsgContent.cpp.o
 
 .PHONY : model/UserMsgContent.o
 
 # target to build an object file
-model/UserMsgContent.cc.o:
-	cd /home/loadstar/VscodeCpp/SimpleImServer/build && $(MAKE) $(MAKESILENT) -f infrastructure/CMakeFiles/Infrastructure.dir/build.make infrastructure/CMakeFiles/Infrastructure.dir/model/UserMsgContent.cc.o
-.PHONY : model/UserMsgContent.cc.o
+model/UserMsgContent.cpp.o:
+	cd /home/loadstar/VscodeCpp/SimpleImServer/build && $(MAKE) $(MAKESILENT) -f infrastructure/CMakeFiles/Infrastructure.dir/build.make infrastructure/CMakeFiles/Infrastructure.dir/model/UserMsgContent.cpp.o
+.PHONY : model/UserMsgContent.cpp.o
 
-model/UserMsgContent.i: model/UserMsgContent.cc.i
+model/UserMsgContent.i: model/UserMsgContent.cpp.i
 
 .PHONY : model/UserMsgContent.i
 
 # target to preprocess a source file
-model/UserMsgContent.cc.i:
-	cd /home/loadstar/VscodeCpp/SimpleImServer/build && $(MAKE) $(MAKESILENT) -f infrastructure/CMakeFiles/Infrastructure.dir/build.make infrastructure/CMakeFiles/Infrastructure.dir/model/UserMsgContent.cc.i
-.PHONY : model/UserMsgContent.cc.i
+model/UserMsgContent.cpp.i:
+	cd /home/loadstar/VscodeCpp/SimpleImServer/build && $(MAKE) $(MAKESILENT) -f infrastructure/CMakeFiles/Infrastructure.dir/build.make infrastructure/CMakeFiles/Infrastructure.dir/model/UserMsgContent.cpp.i
+.PHONY : model/UserMsgContent.cpp.i
 
-model/UserMsgContent.s: model/UserMsgContent.cc.s
+model/UserMsgContent.s: model/UserMsgContent.cpp.s
 
 .PHONY : model/UserMsgContent.s
 
 # target to generate assembly for a file
-model/UserMsgContent.cc.s:
-	cd /home/loadstar/VscodeCpp/SimpleImServer/build && $(MAKE) $(MAKESILENT) -f infrastructure/CMakeFiles/Infrastructure.dir/build.make infrastructure/CMakeFiles/Infrastructure.dir/model/UserMsgContent.cc.s
-.PHONY : model/UserMsgContent.cc.s
+model/UserMsgContent.cpp.s:
+	cd /home/loadstar/VscodeCpp/SimpleImServer/build && $(MAKE) $(MAKESILENT) -f infrastructure/CMakeFiles/Infrastructure.dir/build.make infrastructure/CMakeFiles/Infrastructure.dir/model/UserMsgContent.cpp.s
+.PHONY : model/UserMsgContent.cpp.s
 
-model/UserMsgRelation.o: model/UserMsgRelation.cc.o
+model/UserMsgRelation.o: model/UserMsgRelation.cpp.o
 
 .PHONY : model/UserMsgRelation.o
 
 # target to build an object file
-model/UserMsgRelation.cc.o:
-	cd /home/loadstar/VscodeCpp/SimpleImServer/build && $(MAKE) $(MAKESILENT) -f infrastructure/CMakeFiles/Infrastructure.dir/build.make infrastructure/CMakeFiles/Infrastructure.dir/model/UserMsgRelation.cc.o
-.PHONY : model/UserMsgRelation.cc.o
+model/UserMsgRelation.cpp.o:
+	cd /home/loadstar/VscodeCpp/SimpleImServer/build && $(MAKE) $(MAKESILENT) -f infrastructure/CMakeFiles/Infrastructure.dir/build.make infrastructure/CMakeFiles/Infrastructure.dir/model/UserMsgRelation.cpp.o
+.PHONY : model/UserMsgRelation.cpp.o
 
-model/UserMsgRelation.i: model/UserMsgRelation.cc.i
+model/UserMsgRelation.i: model/UserMsgRelation.cpp.i
 
 .PHONY : model/UserMsgRelation.i
 
 # target to preprocess a source file
-model/UserMsgRelation.cc.i:
-	cd /home/loadstar/VscodeCpp/SimpleImServer/build && $(MAKE) $(MAKESILENT) -f infrastructure/CMakeFiles/Infrastructure.dir/build.make infrastructure/CMakeFiles/Infrastructure.dir/model/UserMsgRelation.cc.i
-.PHONY : model/UserMsgRelation.cc.i
+model/UserMsgRelation.cpp.i:
+	cd /home/loadstar/VscodeCpp/SimpleImServer/build && $(MAKE) $(MAKESILENT) -f infrastructure/CMakeFiles/Infrastructure.dir/build.make infrastructure/CMakeFiles/Infrastructure.dir/model/UserMsgRelation.cpp.i
+.PHONY : model/UserMsgRelation.cpp.i
 
-model/UserMsgRelation.s: model/UserMsgRelation.cc.s
+model/UserMsgRelation.s: model/UserMsgRelation.cpp.s
 
 .PHONY : model/UserMsgRelation.s
 
 # target to generate assembly for a file
-model/UserMsgRelation.cc.s:
-	cd /home/loadstar/VscodeCpp/SimpleImServer/build && $(MAKE) $(MAKESILENT) -f infrastructure/CMakeFiles/Infrastructure.dir/build.make infrastructure/CMakeFiles/Infrastructure.dir/model/UserMsgRelation.cc.s
-.PHONY : model/UserMsgRelation.cc.s
+model/UserMsgRelation.cpp.s:
+	cd /home/loadstar/VscodeCpp/SimpleImServer/build && $(MAKE) $(MAKESILENT) -f infrastructure/CMakeFiles/Infrastructure.dir/build.make infrastructure/CMakeFiles/Infrastructure.dir/model/UserMsgRelation.cpp.s
+.PHONY : model/UserMsgRelation.cpp.s
+
+model/UserRelation.o: model/UserRelation.cpp.o
+
+.PHONY : model/UserRelation.o
+
+# target to build an object file
+model/UserRelation.cpp.o:
+	cd /home/loadstar/VscodeCpp/SimpleImServer/build && $(MAKE) $(MAKESILENT) -f infrastructure/CMakeFiles/Infrastructure.dir/build.make infrastructure/CMakeFiles/Infrastructure.dir/model/UserRelation.cpp.o
+.PHONY : model/UserRelation.cpp.o
+
+model/UserRelation.i: model/UserRelation.cpp.i
+
+.PHONY : model/UserRelation.i
+
+# target to preprocess a source file
+model/UserRelation.cpp.i:
+	cd /home/loadstar/VscodeCpp/SimpleImServer/build && $(MAKE) $(MAKESILENT) -f infrastructure/CMakeFiles/Infrastructure.dir/build.make infrastructure/CMakeFiles/Infrastructure.dir/model/UserRelation.cpp.i
+.PHONY : model/UserRelation.cpp.i
+
+model/UserRelation.s: model/UserRelation.cpp.s
+
+.PHONY : model/UserRelation.s
+
+# target to generate assembly for a file
+model/UserRelation.cpp.s:
+	cd /home/loadstar/VscodeCpp/SimpleImServer/build && $(MAKE) $(MAKESILENT) -f infrastructure/CMakeFiles/Infrastructure.dir/build.make infrastructure/CMakeFiles/Infrastructure.dir/model/UserRelation.cpp.s
+.PHONY : model/UserRelation.cpp.s
 
 # Help Target
 help:
@@ -370,6 +397,9 @@ help:
 	@echo "... model/UserMsgRelation.o"
 	@echo "... model/UserMsgRelation.i"
 	@echo "... model/UserMsgRelation.s"
+	@echo "... model/UserRelation.o"
+	@echo "... model/UserRelation.i"
+	@echo "... model/UserRelation.s"
 .PHONY : help
 
 

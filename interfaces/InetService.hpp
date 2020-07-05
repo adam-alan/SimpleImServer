@@ -6,12 +6,10 @@
 
 
 
-class InetService
+class IInetService
 {
 public:
     
-private:
-
 
 };
 

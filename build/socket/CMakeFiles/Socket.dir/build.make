@@ -77,18 +77,18 @@ include socket/CMakeFiles/Socket.dir/progress.make
 # Include the compile flags for this target's objects.
 include socket/CMakeFiles/Socket.dir/flags.make
 
-socket/CMakeFiles/Socket.dir/Connection.cc.o: socket/CMakeFiles/Socket.dir/flags.make
-socket/CMakeFiles/Socket.dir/Connection.cc.o: ../socket/Connection.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/loadstar/VscodeCpp/SimpleImServer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object socket/CMakeFiles/Socket.dir/Connection.cc.o"
-	cd /home/loadstar/VscodeCpp/SimpleImServer/build/socket && /usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Socket.dir/Connection.cc.o -c /home/loadstar/VscodeCpp/SimpleImServer/socket/Connection.cc
+socket/CMakeFiles/Socket.dir/Connection.cpp.o: socket/CMakeFiles/Socket.dir/flags.make
+socket/CMakeFiles/Socket.dir/Connection.cpp.o: ../socket/Connection.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/loadstar/VscodeCpp/SimpleImServer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object socket/CMakeFiles/Socket.dir/Connection.cpp.o"
+	cd /home/loadstar/VscodeCpp/SimpleImServer/build/socket && /usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Socket.dir/Connection.cpp.o -c /home/loadstar/VscodeCpp/SimpleImServer/socket/Connection.cpp
 
-socket/CMakeFiles/Socket.dir/Connection.cc.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Socket.dir/Connection.cc.i"
-	cd /home/loadstar/VscodeCpp/SimpleImServer/build/socket && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/loadstar/VscodeCpp/SimpleImServer/socket/Connection.cc > CMakeFiles/Socket.dir/Connection.cc.i
+socket/CMakeFiles/Socket.dir/Connection.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Socket.dir/Connection.cpp.i"
+	cd /home/loadstar/VscodeCpp/SimpleImServer/build/socket && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/loadstar/VscodeCpp/SimpleImServer/socket/Connection.cpp > CMakeFiles/Socket.dir/Connection.cpp.i
 
-socket/CMakeFiles/Socket.dir/Connection.cc.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Socket.dir/Connection.cc.s"
-	cd /home/loadstar/VscodeCpp/SimpleImServer/build/socket && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/loadstar/VscodeCpp/SimpleImServer/socket/Connection.cc -o CMakeFiles/Socket.dir/Connection.cc.s
+socket/CMakeFiles/Socket.dir/Connection.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Socket.dir/Connection.cpp.s"
+	cd /home/loadstar/VscodeCpp/SimpleImServer/build/socket && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/loadstar/VscodeCpp/SimpleImServer/socket/Connection.cpp -o CMakeFiles/Socket.dir/Connection.cpp.s
 
 socket/CMakeFiles/Socket.dir/TcpServer.cpp.o: socket/CMakeFiles/Socket.dir/flags.make
 socket/CMakeFiles/Socket.dir/TcpServer.cpp.o: ../socket/TcpServer.cpp
@@ -105,13 +105,13 @@ socket/CMakeFiles/Socket.dir/TcpServer.cpp.s: cmake_force
 
 # Object files for target Socket
 Socket_OBJECTS = \
-"CMakeFiles/Socket.dir/Connection.cc.o" \
+"CMakeFiles/Socket.dir/Connection.cpp.o" \
 "CMakeFiles/Socket.dir/TcpServer.cpp.o"
 
 # External object files for target Socket
 Socket_EXTERNAL_OBJECTS =
 
-socket/libSocket.so: socket/CMakeFiles/Socket.dir/Connection.cc.o
+socket/libSocket.so: socket/CMakeFiles/Socket.dir/Connection.cpp.o
 socket/libSocket.so: socket/CMakeFiles/Socket.dir/TcpServer.cpp.o
 socket/libSocket.so: socket/CMakeFiles/Socket.dir/build.make
 socket/libSocket.so: socket/CMakeFiles/Socket.dir/link.txt

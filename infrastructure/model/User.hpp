@@ -6,7 +6,8 @@
 
 
 struct User {
-  std::size_t id;
+  
+  uint64_t id;
   std::string name;
   std::string headImagePath;
   std::string nickname;
@@ -17,6 +18,7 @@ struct User {
   std::string updateTime;
 
   friend std::ostream &operator<<(std::ostream & out,const User & user);
+  friend std::istream &operator>>(std::istream & in,User & user);
 };
   
 

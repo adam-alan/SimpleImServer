@@ -1,0 +1,1 @@
+/usr/bin/g++ -fPIC -g  -shared -Wl,-soname,libdatabase.so -o libdatabase.so CMakeFiles/database.dir/DatabaseService.cpp.o CMakeFiles/database.dir/UserRelationTable.cpp.o CMakeFiles/database.dir/UserTable.cpp.o 

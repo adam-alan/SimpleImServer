@@ -554,17 +554,17 @@ Infrastructure/fast:
 .PHONY : Infrastructure/fast
 
 #=============================================================================
-# Target rules for targets named Application
+# Target rules for targets named database
 
 # Build rule for target.
-Application: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Application
-.PHONY : Application
+database: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 database
+.PHONY : database
 
 # fast build rule for target.
-Application/fast:
-	$(MAKE) $(MAKESILENT) -f application/CMakeFiles/Application.dir/build.make application/CMakeFiles/Application.dir/build
-.PHONY : Application/fast
+database/fast:
+	$(MAKE) $(MAKESILENT) -f database/CMakeFiles/database.dir/build.make database/CMakeFiles/database.dir/build
+.PHONY : database/fast
 
 #=============================================================================
 # Target rules for targets named Socket
@@ -645,10 +645,10 @@ help:
 	@echo "... NightlySubmit"
 	@echo "... NightlyTest"
 	@echo "... NightlyUpdate"
-	@echo "... Application"
 	@echo "... Infrastructure"
 	@echo "... SimpleImServer"
 	@echo "... Socket"
+	@echo "... database"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

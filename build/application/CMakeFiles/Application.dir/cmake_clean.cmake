@@ -1,5 +1,7 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/Application.dir/DatabaseService.cc.o"
+  "CMakeFiles/Application.dir/DatabaseService.cpp.o"
+  "CMakeFiles/Application.dir/UserRelationService.cpp.o"
+  "CMakeFiles/Application.dir/UserService.cpp.o"
   "libApplication.pdb"
   "libApplication.so"
 )
