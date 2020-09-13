@@ -1,3 +1,11 @@
+/*
+ * @Author: your name
+ * @Date: 2020-06-28 20:04:36
+ * @LastEditTime: 2020-07-05 16:26:33
+ * @LastEditors: Please set LastEditors
+ * @Description: In User Settings Edit
+ * @FilePath: /SimpleImServer/socket/LoginHandle.hpp
+ */ 
 #if !defined(LOGINHANDLE)
 #define LOGINHANDLE
 
@@ -5,7 +13,7 @@
 #include "../infrastructure/messages/LoginResponce.hpp"
 #include "../infrastructure/Singleton.hpp"
 #include "../infrastructure/project.hpp"
-#include "../database/DatabaseService.hpp"
+#include "../database/DatabaseProxy.hpp"
 #include "Connection.hpp"
 using namespace boost;
 
@@ -14,8 +22,8 @@ void LoginHandle(std::shared_ptr<Connection> conn){
     std::istream in(conn->readBufferPtr().get());
     in >> loginRequest;
 
-    auto& databaseService = instance<DatabaseService>();
-    auto user = databaseService.queryUserByName(loginRequest.name);
+    auto& databaseProxy = instance<DatabaseProxy>();
+    auto user = databaseProxy.queryUserByName(loginRequest.name);
     
     LoginResponce loginResponce;
 

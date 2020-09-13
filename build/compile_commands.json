@@ -1,67 +1,77 @@
 [
 {
-  "directory": "/home/loadstar/VscodeCpp/SimpleImServer/build",
-  "command": "/usr/bin/g++    -g   -std=gnu++17 -o CMakeFiles/SimpleImServer.dir/main.cpp.o -c /home/loadstar/VscodeCpp/SimpleImServer/main.cpp",
-  "file": "/home/loadstar/VscodeCpp/SimpleImServer/main.cpp"
+  "directory": "/home/loadstar/VsCodeDir/Cpp/SimpleImServer/build",
+  "command": "/usr/bin/c++   -g -std=gnu++2a -o CMakeFiles/SimpleImServer.dir/main.cpp.o -c /home/loadstar/VsCodeDir/Cpp/SimpleImServer/main.cpp",
+  "file": "/home/loadstar/VsCodeDir/Cpp/SimpleImServer/main.cpp"
 },
 {
-  "directory": "/home/loadstar/VscodeCpp/SimpleImServer/build/infrastructure",
-  "command": "/usr/bin/g++  -DInfrastructure_EXPORTS  -g -fPIC   -std=gnu++17 -o CMakeFiles/Infrastructure.dir/model/Group.cpp.o -c /home/loadstar/VscodeCpp/SimpleImServer/infrastructure/model/Group.cpp",
-  "file": "/home/loadstar/VscodeCpp/SimpleImServer/infrastructure/model/Group.cpp"
+  "directory": "/home/loadstar/VsCodeDir/Cpp/SimpleImServer/build/data_model",
+  "command": "/usr/bin/c++ -DDB_MODEL_EXPORTS  -g -fPIC -std=gnu++2a -o CMakeFiles/DB_MODEL.dir/model/Group.cpp.o -c /home/loadstar/VsCodeDir/Cpp/SimpleImServer/data_model/model/Group.cpp",
+  "file": "/home/loadstar/VsCodeDir/Cpp/SimpleImServer/data_model/model/Group.cpp"
 },
 {
-  "directory": "/home/loadstar/VscodeCpp/SimpleImServer/build/infrastructure",
-  "command": "/usr/bin/g++  -DInfrastructure_EXPORTS  -g -fPIC   -std=gnu++17 -o CMakeFiles/Infrastructure.dir/model/User.cpp.o -c /home/loadstar/VscodeCpp/SimpleImServer/infrastructure/model/User.cpp",
-  "file": "/home/loadstar/VscodeCpp/SimpleImServer/infrastructure/model/User.cpp"
+  "directory": "/home/loadstar/VsCodeDir/Cpp/SimpleImServer/build/data_model",
+  "command": "/usr/bin/c++ -DDB_MODEL_EXPORTS  -g -fPIC -std=gnu++2a -o CMakeFiles/DB_MODEL.dir/model/User.cpp.o -c /home/loadstar/VsCodeDir/Cpp/SimpleImServer/data_model/model/User.cpp",
+  "file": "/home/loadstar/VsCodeDir/Cpp/SimpleImServer/data_model/model/User.cpp"
 },
 {
-  "directory": "/home/loadstar/VscodeCpp/SimpleImServer/build/infrastructure",
-  "command": "/usr/bin/g++  -DInfrastructure_EXPORTS  -g -fPIC   -std=gnu++17 -o CMakeFiles/Infrastructure.dir/model/UserMsgContent.cpp.o -c /home/loadstar/VscodeCpp/SimpleImServer/infrastructure/model/UserMsgContent.cpp",
-  "file": "/home/loadstar/VscodeCpp/SimpleImServer/infrastructure/model/UserMsgContent.cpp"
+  "directory": "/home/loadstar/VsCodeDir/Cpp/SimpleImServer/build/data_model",
+  "command": "/usr/bin/c++ -DDB_MODEL_EXPORTS  -g -fPIC -std=gnu++2a -o CMakeFiles/DB_MODEL.dir/model/UserMsgContent.cpp.o -c /home/loadstar/VsCodeDir/Cpp/SimpleImServer/data_model/model/UserMsgContent.cpp",
+  "file": "/home/loadstar/VsCodeDir/Cpp/SimpleImServer/data_model/model/UserMsgContent.cpp"
 },
 {
-  "directory": "/home/loadstar/VscodeCpp/SimpleImServer/build/infrastructure",
-  "command": "/usr/bin/g++  -DInfrastructure_EXPORTS  -g -fPIC   -std=gnu++17 -o CMakeFiles/Infrastructure.dir/model/UserMsgRelation.cpp.o -c /home/loadstar/VscodeCpp/SimpleImServer/infrastructure/model/UserMsgRelation.cpp",
-  "file": "/home/loadstar/VscodeCpp/SimpleImServer/infrastructure/model/UserMsgRelation.cpp"
+  "directory": "/home/loadstar/VsCodeDir/Cpp/SimpleImServer/build/data_model",
+  "command": "/usr/bin/c++ -DDB_MODEL_EXPORTS  -g -fPIC -std=gnu++2a -o CMakeFiles/DB_MODEL.dir/model/UserMsgRelation.cpp.o -c /home/loadstar/VsCodeDir/Cpp/SimpleImServer/data_model/model/UserMsgRelation.cpp",
+  "file": "/home/loadstar/VsCodeDir/Cpp/SimpleImServer/data_model/model/UserMsgRelation.cpp"
 },
 {
-  "directory": "/home/loadstar/VscodeCpp/SimpleImServer/build/infrastructure",
-  "command": "/usr/bin/g++  -DInfrastructure_EXPORTS  -g -fPIC   -std=gnu++17 -o CMakeFiles/Infrastructure.dir/model/UserRelation.cpp.o -c /home/loadstar/VscodeCpp/SimpleImServer/infrastructure/model/UserRelation.cpp",
-  "file": "/home/loadstar/VscodeCpp/SimpleImServer/infrastructure/model/UserRelation.cpp"
+  "directory": "/home/loadstar/VsCodeDir/Cpp/SimpleImServer/build/data_model",
+  "command": "/usr/bin/c++ -DDB_MODEL_EXPORTS  -g -fPIC -std=gnu++2a -o CMakeFiles/DB_MODEL.dir/model/UserRelation.cpp.o -c /home/loadstar/VsCodeDir/Cpp/SimpleImServer/data_model/model/UserRelation.cpp",
+  "file": "/home/loadstar/VsCodeDir/Cpp/SimpleImServer/data_model/model/UserRelation.cpp"
 },
 {
-  "directory": "/home/loadstar/VscodeCpp/SimpleImServer/build/infrastructure",
-  "command": "/usr/bin/g++  -DInfrastructure_EXPORTS  -g -fPIC   -std=gnu++17 -o CMakeFiles/Infrastructure.dir/messages/LoginRequest.cpp.o -c /home/loadstar/VscodeCpp/SimpleImServer/infrastructure/messages/LoginRequest.cpp",
-  "file": "/home/loadstar/VscodeCpp/SimpleImServer/infrastructure/messages/LoginRequest.cpp"
+  "directory": "/home/loadstar/VsCodeDir/Cpp/SimpleImServer/build/data_model",
+  "command": "/usr/bin/c++ -DDB_MODEL_EXPORTS  -g -fPIC -std=gnu++2a -o CMakeFiles/DB_MODEL.dir/messages/AddFriendRequest.cpp.o -c /home/loadstar/VsCodeDir/Cpp/SimpleImServer/data_model/messages/AddFriendRequest.cpp",
+  "file": "/home/loadstar/VsCodeDir/Cpp/SimpleImServer/data_model/messages/AddFriendRequest.cpp"
 },
 {
-  "directory": "/home/loadstar/VscodeCpp/SimpleImServer/build/infrastructure",
-  "command": "/usr/bin/g++  -DInfrastructure_EXPORTS  -g -fPIC   -std=gnu++17 -o CMakeFiles/Infrastructure.dir/messages/loginResponce.cpp.o -c /home/loadstar/VscodeCpp/SimpleImServer/infrastructure/messages/loginResponce.cpp",
-  "file": "/home/loadstar/VscodeCpp/SimpleImServer/infrastructure/messages/loginResponce.cpp"
+  "directory": "/home/loadstar/VsCodeDir/Cpp/SimpleImServer/build/data_model",
+  "command": "/usr/bin/c++ -DDB_MODEL_EXPORTS  -g -fPIC -std=gnu++2a -o CMakeFiles/DB_MODEL.dir/messages/AddFriendResponce.cpp.o -c /home/loadstar/VsCodeDir/Cpp/SimpleImServer/data_model/messages/AddFriendResponce.cpp",
+  "file": "/home/loadstar/VsCodeDir/Cpp/SimpleImServer/data_model/messages/AddFriendResponce.cpp"
 },
 {
-  "directory": "/home/loadstar/VscodeCpp/SimpleImServer/build/database",
-  "command": "/usr/bin/g++  -Ddatabase_EXPORTS  -g -fPIC   -std=gnu++17 -o CMakeFiles/database.dir/DatabaseService.cpp.o -c /home/loadstar/VscodeCpp/SimpleImServer/database/DatabaseService.cpp",
-  "file": "/home/loadstar/VscodeCpp/SimpleImServer/database/DatabaseService.cpp"
+  "directory": "/home/loadstar/VsCodeDir/Cpp/SimpleImServer/build/data_model",
+  "command": "/usr/bin/c++ -DDB_MODEL_EXPORTS  -g -fPIC -std=gnu++2a -o CMakeFiles/DB_MODEL.dir/messages/LoginRequest.cpp.o -c /home/loadstar/VsCodeDir/Cpp/SimpleImServer/data_model/messages/LoginRequest.cpp",
+  "file": "/home/loadstar/VsCodeDir/Cpp/SimpleImServer/data_model/messages/LoginRequest.cpp"
 },
 {
-  "directory": "/home/loadstar/VscodeCpp/SimpleImServer/build/database",
-  "command": "/usr/bin/g++  -Ddatabase_EXPORTS  -g -fPIC   -std=gnu++17 -o CMakeFiles/database.dir/UserRelationTable.cpp.o -c /home/loadstar/VscodeCpp/SimpleImServer/database/UserRelationTable.cpp",
-  "file": "/home/loadstar/VscodeCpp/SimpleImServer/database/UserRelationTable.cpp"
+  "directory": "/home/loadstar/VsCodeDir/Cpp/SimpleImServer/build/data_model",
+  "command": "/usr/bin/c++ -DDB_MODEL_EXPORTS  -g -fPIC -std=gnu++2a -o CMakeFiles/DB_MODEL.dir/messages/loginResponce.cpp.o -c /home/loadstar/VsCodeDir/Cpp/SimpleImServer/data_model/messages/loginResponce.cpp",
+  "file": "/home/loadstar/VsCodeDir/Cpp/SimpleImServer/data_model/messages/loginResponce.cpp"
 },
 {
-  "directory": "/home/loadstar/VscodeCpp/SimpleImServer/build/database",
-  "command": "/usr/bin/g++  -Ddatabase_EXPORTS  -g -fPIC   -std=gnu++17 -o CMakeFiles/database.dir/UserTable.cpp.o -c /home/loadstar/VscodeCpp/SimpleImServer/database/UserTable.cpp",
-  "file": "/home/loadstar/VscodeCpp/SimpleImServer/database/UserTable.cpp"
+  "directory": "/home/loadstar/VsCodeDir/Cpp/SimpleImServer/build/db_model",
+  "command": "/usr/bin/c++ -Ddb_model_EXPORTS  -g -fPIC -std=gnu++2a -o CMakeFiles/db_model.dir/DatabaseProxy.cpp.o -c /home/loadstar/VsCodeDir/Cpp/SimpleImServer/db_model/DatabaseProxy.cpp",
+  "file": "/home/loadstar/VsCodeDir/Cpp/SimpleImServer/db_model/DatabaseProxy.cpp"
 },
 {
-  "directory": "/home/loadstar/VscodeCpp/SimpleImServer/build/socket",
-  "command": "/usr/bin/g++  -DSocket_EXPORTS  -g -fPIC   -std=gnu++17 -o CMakeFiles/Socket.dir/Connection.cpp.o -c /home/loadstar/VscodeCpp/SimpleImServer/socket/Connection.cpp",
-  "file": "/home/loadstar/VscodeCpp/SimpleImServer/socket/Connection.cpp"
+  "directory": "/home/loadstar/VsCodeDir/Cpp/SimpleImServer/build/db_model",
+  "command": "/usr/bin/c++ -Ddb_model_EXPORTS  -g -fPIC -std=gnu++2a -o CMakeFiles/db_model.dir/UserRelationTable.cpp.o -c /home/loadstar/VsCodeDir/Cpp/SimpleImServer/db_model/UserRelationTable.cpp",
+  "file": "/home/loadstar/VsCodeDir/Cpp/SimpleImServer/db_model/UserRelationTable.cpp"
 },
 {
-  "directory": "/home/loadstar/VscodeCpp/SimpleImServer/build/socket",
-  "command": "/usr/bin/g++  -DSocket_EXPORTS  -g -fPIC   -std=gnu++17 -o CMakeFiles/Socket.dir/TcpServer.cpp.o -c /home/loadstar/VscodeCpp/SimpleImServer/socket/TcpServer.cpp",
-  "file": "/home/loadstar/VscodeCpp/SimpleImServer/socket/TcpServer.cpp"
+  "directory": "/home/loadstar/VsCodeDir/Cpp/SimpleImServer/build/db_model",
+  "command": "/usr/bin/c++ -Ddb_model_EXPORTS  -g -fPIC -std=gnu++2a -o CMakeFiles/db_model.dir/UserTable.cpp.o -c /home/loadstar/VsCodeDir/Cpp/SimpleImServer/db_model/UserTable.cpp",
+  "file": "/home/loadstar/VsCodeDir/Cpp/SimpleImServer/db_model/UserTable.cpp"
+},
+{
+  "directory": "/home/loadstar/VsCodeDir/Cpp/SimpleImServer/build/socket",
+  "command": "/usr/bin/c++ -DSocket_EXPORTS  -g -fPIC -std=gnu++2a -o CMakeFiles/Socket.dir/Connection.cpp.o -c /home/loadstar/VsCodeDir/Cpp/SimpleImServer/socket/Connection.cpp",
+  "file": "/home/loadstar/VsCodeDir/Cpp/SimpleImServer/socket/Connection.cpp"
+},
+{
+  "directory": "/home/loadstar/VsCodeDir/Cpp/SimpleImServer/build/socket",
+  "command": "/usr/bin/c++ -DSocket_EXPORTS  -g -fPIC -std=gnu++2a -o CMakeFiles/Socket.dir/TcpServer.cpp.o -c /home/loadstar/VsCodeDir/Cpp/SimpleImServer/socket/TcpServer.cpp",
+  "file": "/home/loadstar/VsCodeDir/Cpp/SimpleImServer/socket/TcpServer.cpp"
 }
 ]

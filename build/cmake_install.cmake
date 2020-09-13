@@ -1,4 +1,4 @@
-# Install script for directory: /home/loadstar/VscodeCpp/SimpleImServer
+# Install script for directory: /home/loadstar/VsCodeDir/Cpp/SimpleImServer
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -37,11 +37,16 @@ if(NOT DEFINED CMAKE_CROSSCOMPILING)
   set(CMAKE_CROSSCOMPILING "FALSE")
 endif()
 
+# Set default install directory permissions.
+if(NOT DEFINED CMAKE_OBJDUMP)
+  set(CMAKE_OBJDUMP "/usr/bin/objdump")
+endif()
+
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/loadstar/VscodeCpp/SimpleImServer/build/infrastructure/cmake_install.cmake")
-  include("/home/loadstar/VscodeCpp/SimpleImServer/build/database/cmake_install.cmake")
-  include("/home/loadstar/VscodeCpp/SimpleImServer/build/socket/cmake_install.cmake")
+  include("/home/loadstar/VsCodeDir/Cpp/SimpleImServer/build/data_model/cmake_install.cmake")
+  include("/home/loadstar/VsCodeDir/Cpp/SimpleImServer/build/db_model/cmake_install.cmake")
+  include("/home/loadstar/VsCodeDir/Cpp/SimpleImServer/build/socket/cmake_install.cmake")
 
 endif()
 
@@ -53,5 +58,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/loadstar/VscodeCpp/SimpleImServer/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/loadstar/VsCodeDir/Cpp/SimpleImServer/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

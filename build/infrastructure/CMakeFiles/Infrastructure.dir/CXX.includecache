@@ -6,33 +6,63 @@
 
 #IncludeRegexTransform: 
 
-/home/loadstar/VscodeCpp/SimpleImServer/infrastructure/messages/LoginResponce.hpp
+/home/loadstar/VsCodeDir/Cpp/SimpleImServer/infrastructure/messages/AddFriendRequest.cpp
+
+/home/loadstar/VsCodeDir/Cpp/SimpleImServer/infrastructure/messages/AddFriendResponce.cpp
+
+/home/loadstar/VsCodeDir/Cpp/SimpleImServer/infrastructure/messages/LoginRequest.cpp
+LoginRequest.hpp
+/home/loadstar/VsCodeDir/Cpp/SimpleImServer/infrastructure/messages/LoginRequest.hpp
+
+/home/loadstar/VsCodeDir/Cpp/SimpleImServer/infrastructure/messages/LoginRequest.hpp
 string
+-
+iostream
+-
+
+/home/loadstar/VsCodeDir/Cpp/SimpleImServer/infrastructure/messages/LoginResponce.hpp
+string
+-
+vector
 -
 ../model/User.hpp
-/home/loadstar/VscodeCpp/SimpleImServer/infrastructure/model/User.hpp
+/home/loadstar/VsCodeDir/Cpp/SimpleImServer/infrastructure/model/User.hpp
 
-/home/loadstar/VscodeCpp/SimpleImServer/infrastructure/messages/loginResponce.cpp
+/home/loadstar/VsCodeDir/Cpp/SimpleImServer/infrastructure/messages/loginResponce.cpp
 LoginResponce.hpp
-/home/loadstar/VscodeCpp/SimpleImServer/infrastructure/messages/LoginResponce.hpp
+/home/loadstar/VsCodeDir/Cpp/SimpleImServer/infrastructure/messages/LoginResponce.hpp
 
-/home/loadstar/VscodeCpp/SimpleImServer/infrastructure/model/User.cpp
+/home/loadstar/VsCodeDir/Cpp/SimpleImServer/infrastructure/model/Group.cpp
+
+/home/loadstar/VsCodeDir/Cpp/SimpleImServer/infrastructure/model/User.cpp
 User.hpp
-/home/loadstar/VscodeCpp/SimpleImServer/infrastructure/model/User.hpp
+/home/loadstar/VsCodeDir/Cpp/SimpleImServer/infrastructure/model/User.hpp
 
-/home/loadstar/VscodeCpp/SimpleImServer/infrastructure/model/User.hpp
+/home/loadstar/VsCodeDir/Cpp/SimpleImServer/infrastructure/model/User.hpp
 iostream
 -
 string
 -
 
-/home/loadstar/VscodeCpp/SimpleImServer/infrastructure/model/UserRelation.cpp
+/home/loadstar/VsCodeDir/Cpp/SimpleImServer/infrastructure/model/UserMsgContent.cpp
+iostream
+-
+UserMsgContent.hpp
+/home/loadstar/VsCodeDir/Cpp/SimpleImServer/infrastructure/model/UserMsgContent.hpp
+
+/home/loadstar/VsCodeDir/Cpp/SimpleImServer/infrastructure/model/UserMsgContent.hpp
+string
+-
+
+/home/loadstar/VsCodeDir/Cpp/SimpleImServer/infrastructure/model/UserMsgRelation.cpp
+
+/home/loadstar/VsCodeDir/Cpp/SimpleImServer/infrastructure/model/UserRelation.cpp
 UserRelation.hpp
-/home/loadstar/VscodeCpp/SimpleImServer/infrastructure/model/UserRelation.hpp
+/home/loadstar/VsCodeDir/Cpp/SimpleImServer/infrastructure/model/UserRelation.hpp
 iostream
 -
 
-/home/loadstar/VscodeCpp/SimpleImServer/infrastructure/model/UserRelation.hpp
+/home/loadstar/VsCodeDir/Cpp/SimpleImServer/infrastructure/model/UserRelation.hpp
 string
 -
 

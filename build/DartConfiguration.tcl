@@ -4,8 +4,8 @@
 
 
 # Configuration directories and files
-SourceDirectory: /home/loadstar/VscodeCpp/SimpleImServer
-BuildDirectory: /home/loadstar/VscodeCpp/SimpleImServer/build
+SourceDirectory: /home/loadstar/VsCodeDir/Cpp/SimpleImServer
+BuildDirectory: /home/loadstar/VsCodeDir/Cpp/SimpleImServer/build
 
 # Where to place the cost data store
 CostDataFile: 
@@ -14,7 +14,7 @@ CostDataFile:
 Site: loadstar-20h5a01ncd
 
 # Build name is osname-revision-compiler, i.e. Linux-2.4.2-2smp-c++
-BuildName: Linux-g++
+BuildName: Linux-c++
 
 # Subprojects
 LabelsForSubprojects: 
@@ -26,7 +26,7 @@ SubmitURL: http://
 NightlyStartTime: 00:00:00 EDT
 
 # Commands for the build/test/submit cycle
-ConfigureCommand: "/usr/bin/cmake" "/home/loadstar/VscodeCpp/SimpleImServer"
+ConfigureCommand: "/usr/bin/cmake" "/home/loadstar/VsCodeDir/Cpp/SimpleImServer"
 MakeCommand: /usr/bin/cmake --build . --config "${CTEST_CONFIGURATION_TYPE}" -- -i
 DefaultCTestConfigurationType: Release
 
@@ -62,8 +62,8 @@ UpdateOptions:
 UpdateType: git
 
 # Compiler info
-Compiler: /usr/bin/g++
-CompilerVersion: 10.1.0
+Compiler: /usr/bin/c++
+CompilerVersion: 10.2.0
 
 # Dynamic analysis (MemCheck)
 PurifyCommand: 

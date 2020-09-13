@@ -1,3 +1,11 @@
+/*
+ * @Author: your name
+ * @Date: 2020-06-10 15:40:04
+ * @LastEditTime: 2020-07-08 22:39:43
+ * @LastEditors: your name
+ * @Description: In User Settings Edit
+ * @FilePath: /SimpleImServer/socket/TcpServer.cpp
+ */ 
 #include "TcpServer.hpp"
 
 using boost::asio::ip::address;
@@ -10,12 +18,13 @@ TcpServer::TcpServer(uint16_t port)
 }
 
 void TcpServer::start() {
-    mAcceptHandle(mAcceptor);
-    mIoContext.run();
+    mAcceptHandle(mIoContext, mAcceptor);
+    spdlog::info("{}","start accept");
+    // mIoContext.run();
 }
 
 
-void TcpServer::setAcceptHandle(std::function<void(asio::ip::tcp::acceptor&)> acceptHandle){
+void TcpServer::setAcceptHandle(std::function<void(IoService&,Acceptor&)> acceptHandle){
     mAcceptHandle = acceptHandle;
 }
 

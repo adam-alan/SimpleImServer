@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/database.dir/DatabaseService.cpp.o"
+  "CMakeFiles/database.dir/DatabaseProxy.cpp.o"
   "CMakeFiles/database.dir/UserRelationTable.cpp.o"
   "CMakeFiles/database.dir/UserTable.cpp.o"
   "libdatabase.pdb"

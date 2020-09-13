@@ -4,13 +4,15 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/loadstar/VscodeCpp/SimpleImServer/infrastructure/messages/LoginRequest.cpp" "/home/loadstar/VscodeCpp/SimpleImServer/build/infrastructure/CMakeFiles/Infrastructure.dir/messages/LoginRequest.cpp.o"
-  "/home/loadstar/VscodeCpp/SimpleImServer/infrastructure/messages/loginResponce.cpp" "/home/loadstar/VscodeCpp/SimpleImServer/build/infrastructure/CMakeFiles/Infrastructure.dir/messages/loginResponce.cpp.o"
-  "/home/loadstar/VscodeCpp/SimpleImServer/infrastructure/model/Group.cpp" "/home/loadstar/VscodeCpp/SimpleImServer/build/infrastructure/CMakeFiles/Infrastructure.dir/model/Group.cpp.o"
-  "/home/loadstar/VscodeCpp/SimpleImServer/infrastructure/model/User.cpp" "/home/loadstar/VscodeCpp/SimpleImServer/build/infrastructure/CMakeFiles/Infrastructure.dir/model/User.cpp.o"
-  "/home/loadstar/VscodeCpp/SimpleImServer/infrastructure/model/UserMsgContent.cpp" "/home/loadstar/VscodeCpp/SimpleImServer/build/infrastructure/CMakeFiles/Infrastructure.dir/model/UserMsgContent.cpp.o"
-  "/home/loadstar/VscodeCpp/SimpleImServer/infrastructure/model/UserMsgRelation.cpp" "/home/loadstar/VscodeCpp/SimpleImServer/build/infrastructure/CMakeFiles/Infrastructure.dir/model/UserMsgRelation.cpp.o"
-  "/home/loadstar/VscodeCpp/SimpleImServer/infrastructure/model/UserRelation.cpp" "/home/loadstar/VscodeCpp/SimpleImServer/build/infrastructure/CMakeFiles/Infrastructure.dir/model/UserRelation.cpp.o"
+  "/home/loadstar/VsCodeDir/Cpp/SimpleImServer/infrastructure/messages/AddFriendRequest.cpp" "/home/loadstar/VsCodeDir/Cpp/SimpleImServer/build/infrastructure/CMakeFiles/Infrastructure.dir/messages/AddFriendRequest.cpp.o"
+  "/home/loadstar/VsCodeDir/Cpp/SimpleImServer/infrastructure/messages/AddFriendResponce.cpp" "/home/loadstar/VsCodeDir/Cpp/SimpleImServer/build/infrastructure/CMakeFiles/Infrastructure.dir/messages/AddFriendResponce.cpp.o"
+  "/home/loadstar/VsCodeDir/Cpp/SimpleImServer/infrastructure/messages/LoginRequest.cpp" "/home/loadstar/VsCodeDir/Cpp/SimpleImServer/build/infrastructure/CMakeFiles/Infrastructure.dir/messages/LoginRequest.cpp.o"
+  "/home/loadstar/VsCodeDir/Cpp/SimpleImServer/infrastructure/messages/loginResponce.cpp" "/home/loadstar/VsCodeDir/Cpp/SimpleImServer/build/infrastructure/CMakeFiles/Infrastructure.dir/messages/loginResponce.cpp.o"
+  "/home/loadstar/VsCodeDir/Cpp/SimpleImServer/infrastructure/model/Group.cpp" "/home/loadstar/VsCodeDir/Cpp/SimpleImServer/build/infrastructure/CMakeFiles/Infrastructure.dir/model/Group.cpp.o"
+  "/home/loadstar/VsCodeDir/Cpp/SimpleImServer/infrastructure/model/User.cpp" "/home/loadstar/VsCodeDir/Cpp/SimpleImServer/build/infrastructure/CMakeFiles/Infrastructure.dir/model/User.cpp.o"
+  "/home/loadstar/VsCodeDir/Cpp/SimpleImServer/infrastructure/model/UserMsgContent.cpp" "/home/loadstar/VsCodeDir/Cpp/SimpleImServer/build/infrastructure/CMakeFiles/Infrastructure.dir/model/UserMsgContent.cpp.o"
+  "/home/loadstar/VsCodeDir/Cpp/SimpleImServer/infrastructure/model/UserMsgRelation.cpp" "/home/loadstar/VsCodeDir/Cpp/SimpleImServer/build/infrastructure/CMakeFiles/Infrastructure.dir/model/UserMsgRelation.cpp.o"
+  "/home/loadstar/VsCodeDir/Cpp/SimpleImServer/infrastructure/model/UserRelation.cpp" "/home/loadstar/VsCodeDir/Cpp/SimpleImServer/build/infrastructure/CMakeFiles/Infrastructure.dir/model/UserRelation.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

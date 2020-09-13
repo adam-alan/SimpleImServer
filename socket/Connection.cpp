@@ -1,10 +1,20 @@
+/*
+ * @Author: your name
+ * @Date: 2020-06-10 15:22:55
+ * @LastEditTime: 2020-07-12 23:28:08
+ * @LastEditors: Please set LastEditors
+ * @Description: In User Settings Edit
+ * @FilePath: /SimpleImServer/socket/Connection.cpp
+ */ 
 #include "Connection.hpp"
 
-Connection::Connection(Socket && socket)
+Connection::Connection(IoService & ioService, Socket && socket)
 :mSocket(std::move(socket)),
 handlers(),
 mReadBuffer(std::make_shared<StreamBuffer>()),
-mSendQueue()
+mSendQueue(),
+timer(ioService, boost::posix_time::seconds(3)),
+clickNum(3)
 {
     
 }
@@ -12,6 +22,8 @@ mSendQueue()
 
 void Connection::start() {
     read();
+    wait();
+    
 }
 
 void Connection::read(){
@@ -40,7 +52,7 @@ StreamBufferPtr Connection::readBufferPtr() {
     return mReadBuffer;
 }
 
-void Connection::addHandle(std::string name, std::function<void(std::shared_ptr<Connection>)> handle){
+void Connection::addHandle(String name, Handle handle){
     this->handlers.insert({name, handle});
 }
 
@@ -69,4 +81,24 @@ void Connection::write() {
     };
 
     boost::asio::async_write(mSocket, *mSendQueue.front(), writeHandle);
+}
+
+
+void Connection::forceClose(){
+    
+}
+
+void Connection::wait() {
+    auto self{shared_from_this()};
+    auto timerHandle = 
+    [this, self](ErrorCode errorCode){
+        clickNum -= 1;
+        if (clickNum < 0) {
+            forceClose();
+        } else {
+            wait();
+        }
+    };
+
+    timer.async_wait(timerHandle);
 }

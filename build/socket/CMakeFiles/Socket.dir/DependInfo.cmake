@@ -4,8 +4,8 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/loadstar/VscodeCpp/SimpleImServer/socket/Connection.cpp" "/home/loadstar/VscodeCpp/SimpleImServer/build/socket/CMakeFiles/Socket.dir/Connection.cpp.o"
-  "/home/loadstar/VscodeCpp/SimpleImServer/socket/TcpServer.cpp" "/home/loadstar/VscodeCpp/SimpleImServer/build/socket/CMakeFiles/Socket.dir/TcpServer.cpp.o"
+  "/home/loadstar/VsCodeDir/Cpp/SimpleImServer/socket/Connection.cpp" "/home/loadstar/VsCodeDir/Cpp/SimpleImServer/build/socket/CMakeFiles/Socket.dir/Connection.cpp.o"
+  "/home/loadstar/VsCodeDir/Cpp/SimpleImServer/socket/TcpServer.cpp" "/home/loadstar/VsCodeDir/Cpp/SimpleImServer/build/socket/CMakeFiles/Socket.dir/TcpServer.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

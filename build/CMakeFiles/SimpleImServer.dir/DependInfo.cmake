@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/loadstar/VscodeCpp/SimpleImServer/main.cpp" "/home/loadstar/VscodeCpp/SimpleImServer/build/CMakeFiles/SimpleImServer.dir/main.cpp.o"
+  "/home/loadstar/VsCodeDir/Cpp/SimpleImServer/main.cpp" "/home/loadstar/VsCodeDir/Cpp/SimpleImServer/build/CMakeFiles/SimpleImServer.dir/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -14,9 +14,7 @@ set(CMAKE_CXX_TARGET_INCLUDE_PATH
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
-  "/home/loadstar/VscodeCpp/SimpleImServer/build/infrastructure/CMakeFiles/Infrastructure.dir/DependInfo.cmake"
-  "/home/loadstar/VscodeCpp/SimpleImServer/build/database/CMakeFiles/database.dir/DependInfo.cmake"
-  "/home/loadstar/VscodeCpp/SimpleImServer/build/socket/CMakeFiles/Socket.dir/DependInfo.cmake"
+  "/home/loadstar/VsCodeDir/Cpp/SimpleImServer/build/socket/CMakeFiles/Socket.dir/DependInfo.cmake"
   )
 
 # Fortran module output directory.

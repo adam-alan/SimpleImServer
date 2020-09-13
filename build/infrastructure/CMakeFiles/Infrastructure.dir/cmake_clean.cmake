@@ -1,4 +1,6 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/Infrastructure.dir/messages/AddFriendRequest.cpp.o"
+  "CMakeFiles/Infrastructure.dir/messages/AddFriendResponce.cpp.o"
   "CMakeFiles/Infrastructure.dir/messages/LoginRequest.cpp.o"
   "CMakeFiles/Infrastructure.dir/messages/loginResponce.cpp.o"
   "CMakeFiles/Infrastructure.dir/model/Group.cpp.o"
