@@ -1,0 +1,1 @@
+/usr/bin/c++ -fPIC -g -shared -Wl,-soname,libdb_model.so -o libdb_model.so CMakeFiles/db_model.dir/DatabaseProxy.cpp.o CMakeFiles/db_model.dir/UserRelationTable.cpp.o CMakeFiles/db_model.dir/UserTable.cpp.o 

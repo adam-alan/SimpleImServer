@@ -79,15 +79,15 @@ include CMakeFiles/SimpleImServer.dir/flags.make
 CMakeFiles/SimpleImServer.dir/main.cpp.o: CMakeFiles/SimpleImServer.dir/flags.make
 CMakeFiles/SimpleImServer.dir/main.cpp.o: ../main.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/loadstar/VsCodeDir/Cpp/SimpleImServer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/SimpleImServer.dir/main.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/SimpleImServer.dir/main.cpp.o -c /home/loadstar/VsCodeDir/Cpp/SimpleImServer/main.cpp
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/SimpleImServer.dir/main.cpp.o -c /home/loadstar/VsCodeDir/Cpp/SimpleImServer/main.cpp
 
 CMakeFiles/SimpleImServer.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/SimpleImServer.dir/main.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/loadstar/VsCodeDir/Cpp/SimpleImServer/main.cpp > CMakeFiles/SimpleImServer.dir/main.cpp.i
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/loadstar/VsCodeDir/Cpp/SimpleImServer/main.cpp > CMakeFiles/SimpleImServer.dir/main.cpp.i
 
 CMakeFiles/SimpleImServer.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SimpleImServer.dir/main.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/loadstar/VsCodeDir/Cpp/SimpleImServer/main.cpp -o CMakeFiles/SimpleImServer.dir/main.cpp.s
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/loadstar/VsCodeDir/Cpp/SimpleImServer/main.cpp -o CMakeFiles/SimpleImServer.dir/main.cpp.s
 
 # Object files for target SimpleImServer
 SimpleImServer_OBJECTS = \
@@ -98,7 +98,9 @@ SimpleImServer_EXTERNAL_OBJECTS =
 
 SimpleImServer: CMakeFiles/SimpleImServer.dir/main.cpp.o
 SimpleImServer: CMakeFiles/SimpleImServer.dir/build.make
-SimpleImServer: socket/libSocket.so
+SimpleImServer: data_model/libdata_model.so
+SimpleImServer: db_module/libdb_module.so
+SimpleImServer: socket/libsocket.so
 SimpleImServer: CMakeFiles/SimpleImServer.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/loadstar/VsCodeDir/Cpp/SimpleImServer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable SimpleImServer"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/SimpleImServer.dir/link.txt --verbose=$(VERBOSE)

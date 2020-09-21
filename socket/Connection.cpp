@@ -1,7 +1,7 @@
 /*
  * @Author: your name
  * @Date: 2020-06-10 15:22:55
- * @LastEditTime: 2020-07-12 23:28:08
+ * @LastEditTime: 2020-09-20 14:06:51
  * @LastEditors: Please set LastEditors
  * @Description: In User Settings Edit
  * @FilePath: /SimpleImServer/socket/Connection.cpp
@@ -22,8 +22,7 @@ clickNum(3)
 
 void Connection::start() {
     read();
-    wait();
-    
+    //wait();
 }
 
 void Connection::read(){
@@ -34,12 +33,15 @@ void Connection::read(){
             std::istream in(mReadBuffer.get());
             std::string name;
             in >> name;
-            spdlog::info("{}", name);
-            try {
-                handlers.at(name)(self);
-            }catch (std::exception & e) {
-                spdlog::info("{}", e.what());
+            if (name.length() != 0){
+            
+                try {
+                    handlers.at(name)(self);
+                }catch (std::exception & e) {
+                    spdlog::error("{} {} {}",  __FILE__, __LINE__, e.what());
+                }    
             }
+
             
             read();
         }
@@ -53,10 +55,10 @@ StreamBufferPtr Connection::readBufferPtr() {
 }
 
 void Connection::addHandle(String name, Handle handle){
-    this->handlers.insert({name, handle});
+    this->handlers.insert({name.data(), handle});
 }
 
-void Connection::addMessage(StreamBufferPtr streamBufferPtr){
+void Connection::addMessage(StreamBufferPtr streamBufferPtr){ 
     auto isWritting = not mSendQueue.empty();
     mSendQueue.push(streamBufferPtr);
     
@@ -70,13 +72,12 @@ void Connection::write() {
     auto writeHandle = 
     [this, self](ErrorCode errorCode, std::size_t bytes){
         if (!errorCode) {
-          
             mSendQueue.pop();            
             if (!mSendQueue.empty()) {
                 write();
             }
         } else {
-            spdlog::info("{}", errorCode.message());
+            spdlog::error("{} {} {}",__FILE__, __LINE__, errorCode.message());
         }
     };
 

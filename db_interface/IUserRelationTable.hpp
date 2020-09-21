@@ -1,10 +1,19 @@
+/*
+ * @Author: your name
+ * @Date: 2020-07-04 13:45:54
+ * @LastEditTime: 2020-09-13 22:44:36
+ * @LastEditors: Please set LastEditors
+ * @Description: In User Settings Edit
+ * @FilePath: /SimpleImServer/db_interface/IUserRelationTable.hpp
+ */
 #if !defined(IUSER_RELATION_TABLE_HPP)
 #define IUSER_RELATION_TABLE_HPP
 
-#include "../infrastructure/model/UserRelation.hpp"
-#include "../infrastructure/model/User.hpp"
-#include "../infrastructure/project.hpp"
 #include <vector>
+
+#include "../data_model/model/UserRelation.hpp"
+#include "../data_model/model/User.hpp"
+#include "../project.hpp"
 
 class IUserRelationTable{
 public:

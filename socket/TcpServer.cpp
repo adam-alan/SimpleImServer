@@ -1,8 +1,8 @@
 /*
  * @Author: your name
  * @Date: 2020-06-10 15:40:04
- * @LastEditTime: 2020-07-08 22:39:43
- * @LastEditors: your name
+ * @LastEditTime: 2020-09-16 17:17:50
+ * @LastEditors: Please set LastEditors
  * @Description: In User Settings Edit
  * @FilePath: /SimpleImServer/socket/TcpServer.cpp
  */ 
@@ -19,8 +19,8 @@ TcpServer::TcpServer(uint16_t port)
 
 void TcpServer::start() {
     mAcceptHandle(mIoContext, mAcceptor);
-    spdlog::info("{}","start accept");
-    // mIoContext.run();
+    // spdlog::info("{}","start accept");
+    mIoContext.run();
 }
 
 

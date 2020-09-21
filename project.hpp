@@ -1,7 +1,7 @@
 /*
  * @Author: your name
  * @Date: 2020-07-02 22:48:49
- * @LastEditTime: 2020-07-16 17:50:11
+ * @LastEditTime: 2020-09-17 21:37:54
  * @LastEditors: Please set LastEditors
  * @Description: In User Settings Edit
  * @FilePath: /SimpleImServer/socket/../infrastructure/project.hpp
@@ -32,7 +32,7 @@ using StreamBuffer = boost::asio::streambuf;
 using DbConn = pqxx::connection;
 using ErrorCode = boost::system::error_code;
 using Timer = boost::asio::deadline_timer;
-
+using Endpoint = boost::asio::ip::tcp::endpoint;
 
 //Ptrs for pqxx::connection,boost::asio::streambuf,boost::asio::ip::tcp::socket 
 using SocketPtr = std::shared_ptr<Socket>;
@@ -47,6 +47,14 @@ template<typename Key, typename Value>
 using Map = std::unordered_map<Key, Value>;
 
 using String = std::string_view;
+
+
+
+template<typename T, typename ... Args>
+auto & instance(Args ... args){
+    static T obj(std::forward<Args>(args)...);
+    return obj;
+}
 
 
 #endif // PROJECT_HPP

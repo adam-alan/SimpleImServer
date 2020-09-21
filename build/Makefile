@@ -540,43 +540,43 @@ SimpleImServer/fast:
 .PHONY : SimpleImServer/fast
 
 #=============================================================================
-# Target rules for targets named DB_MODEL
+# Target rules for targets named data_model
 
 # Build rule for target.
-DB_MODEL: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 DB_MODEL
-.PHONY : DB_MODEL
+data_model: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 data_model
+.PHONY : data_model
 
 # fast build rule for target.
-DB_MODEL/fast:
-	$(MAKE) $(MAKESILENT) -f data_model/CMakeFiles/DB_MODEL.dir/build.make data_model/CMakeFiles/DB_MODEL.dir/build
-.PHONY : DB_MODEL/fast
+data_model/fast:
+	$(MAKE) $(MAKESILENT) -f data_model/CMakeFiles/data_model.dir/build.make data_model/CMakeFiles/data_model.dir/build
+.PHONY : data_model/fast
 
 #=============================================================================
-# Target rules for targets named db_model
+# Target rules for targets named db_module
 
 # Build rule for target.
-db_model: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 db_model
-.PHONY : db_model
+db_module: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 db_module
+.PHONY : db_module
 
 # fast build rule for target.
-db_model/fast:
-	$(MAKE) $(MAKESILENT) -f db_model/CMakeFiles/db_model.dir/build.make db_model/CMakeFiles/db_model.dir/build
-.PHONY : db_model/fast
+db_module/fast:
+	$(MAKE) $(MAKESILENT) -f db_module/CMakeFiles/db_module.dir/build.make db_module/CMakeFiles/db_module.dir/build
+.PHONY : db_module/fast
 
 #=============================================================================
-# Target rules for targets named Socket
+# Target rules for targets named socket
 
 # Build rule for target.
-Socket: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Socket
-.PHONY : Socket
+socket: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 socket
+.PHONY : socket
 
 # fast build rule for target.
-Socket/fast:
-	$(MAKE) $(MAKESILENT) -f socket/CMakeFiles/Socket.dir/build.make socket/CMakeFiles/Socket.dir/build
-.PHONY : Socket/fast
+socket/fast:
+	$(MAKE) $(MAKESILENT) -f socket/CMakeFiles/socket.dir/build.make socket/CMakeFiles/socket.dir/build
+.PHONY : socket/fast
 
 main.o: main.cpp.o
 
@@ -644,10 +644,10 @@ help:
 	@echo "... NightlySubmit"
 	@echo "... NightlyTest"
 	@echo "... NightlyUpdate"
-	@echo "... DB_MODEL"
 	@echo "... SimpleImServer"
-	@echo "... Socket"
-	@echo "... db_model"
+	@echo "... data_model"
+	@echo "... db_module"
+	@echo "... socket"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

@@ -1,8 +1,8 @@
 /*
  * @Author: your name
  * @Date: 2020-06-07 16:05:14
- * @LastEditTime: 2020-07-13 11:13:07
- * @LastEditors: your name
+ * @LastEditTime: 2020-09-17 15:56:42
+ * @LastEditors: Please set LastEditors
  * @Description: In User Settings Edit
  * @FilePath: /SimpleImServer/infrastructure/model/User.hpp
  */ 
@@ -11,10 +11,13 @@
 
 #include <iostream>
 #include <string>
+#include <nlohmann/json.hpp>
+
+
+using json_t = nlohmann::json;
 
 
 struct User {
-  
   uint64_t id;
   std::string name;
   std::string headImagePath;
@@ -25,10 +28,16 @@ struct User {
   std::string registerTime;
   std::string updateTime;
 
-  friend std::ostream &operator<<(std::ostream & out,const User & user);
-  friend std::istream &operator>>(std::istream & in,User & user);
-};
+  void from_json(const json_t& json);
+  json_t to_json();
   
+};
+
+
+std::ostream &operator<<(std::ostream & out,const User & user);
+std::istream &operator>>(std::istream & in,User & user);
+
+
 
 
 #endif

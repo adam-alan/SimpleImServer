@@ -1,7 +1,7 @@
 /*
  * @Author: your name
  * @Date: 2020-07-04 14:11:00
- * @LastEditTime: 2020-07-13 11:15:24
+ * @LastEditTime: 2020-09-13 22:37:49
  * @LastEditors: Please set LastEditors
  * @Description: In User Settings Edit
  * @FilePath: /SimpleImServer/database/UserRelationTable.hpp
@@ -9,8 +9,8 @@
 #if !defined(USER_RELATION_TABLE_HPP)
 #define USER_RELATION_TABLE_HPP
 
-#include "../infrastructure/project.hpp"
-#include "../interfaces/IUserRelationTable.hpp"
+#include "../data_model/model/UserRelation.hpp"
+#include "../db_interface/IUserRelationTable.hpp"
 #include "UserTable.hpp"
 
 class UserRelationTable: public IUserRelationTable{

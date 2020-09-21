@@ -1,0 +1,1 @@
+/usr/bin/g++ -fPIC -g -shared -Wl,-soname,libdb_module.so -o libdb_module.so CMakeFiles/db_module.dir/DbProxy.cpp.o CMakeFiles/db_module.dir/UserMsgContentTable.cpp.o CMakeFiles/db_module.dir/UserMsgIndexTable.cpp.o CMakeFiles/db_module.dir/UserRelationTable.cpp.o CMakeFiles/db_module.dir/UserTable.cpp.o 

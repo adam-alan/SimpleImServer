@@ -1,8 +1,8 @@
 /*
  * @Author: your name
  * @Date: 2020-06-28 20:30:02
- * @LastEditTime: 2020-07-13 11:19:15
- * @LastEditors: your name
+ * @LastEditTime: 2020-09-16 21:15:42
+ * @LastEditors: Please set LastEditors
  * @Description: In User Settings Edit
  * @FilePath: /SimpleImServer/database/UserTable.cpp
  */ 
@@ -66,5 +66,14 @@ User makeUserFromTableRow(const pqxx::row & row) {
     user.sex = row["sex"].as<std::string>();
     user.registerTime = row["\"registerTime\""].as<std::string>();
     user.updateTime = row["\"updateTime\""].as<std::string>();
+
+
+    int index = user.registerTime.find(' ');
+    user.registerTime[index] = '+';
+    
+    index = user.updateTime.find(' ');
+    user.updateTime[index] = '+';
+    
+
     return user;
 }

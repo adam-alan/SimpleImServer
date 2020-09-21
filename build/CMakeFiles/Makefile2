@@ -74,14 +74,14 @@ CMAKE_BINARY_DIR = /home/loadstar/VsCodeDir/Cpp/SimpleImServer/build
 # The main recursive "all" target.
 all: CMakeFiles/SimpleImServer.dir/all
 all: data_model/all
-all: db_model/all
+all: db_module/all
 all: socket/all
 
 .PHONY : all
 
 # The main recursive "preinstall" target.
 preinstall: data_model/preinstall
-preinstall: db_model/preinstall
+preinstall: db_module/preinstall
 preinstall: socket/preinstall
 
 .PHONY : preinstall
@@ -117,7 +117,7 @@ clean: CMakeFiles/ContinuousTest.dir/clean
 clean: CMakeFiles/ContinuousSubmit.dir/clean
 clean: CMakeFiles/SimpleImServer.dir/clean
 clean: data_model/clean
-clean: db_model/clean
+clean: db_module/clean
 clean: socket/clean
 
 .PHONY : clean
@@ -126,7 +126,7 @@ clean: socket/clean
 # Directory level rules for directory data_model
 
 # Recursive "all" directory target.
-data_model/all: data_model/CMakeFiles/DB_MODEL.dir/all
+data_model/all: data_model/CMakeFiles/data_model.dir/all
 
 .PHONY : data_model/all
 
@@ -136,33 +136,33 @@ data_model/preinstall:
 .PHONY : data_model/preinstall
 
 # Recursive "clean" directory target.
-data_model/clean: data_model/CMakeFiles/DB_MODEL.dir/clean
+data_model/clean: data_model/CMakeFiles/data_model.dir/clean
 
 .PHONY : data_model/clean
 
 #=============================================================================
-# Directory level rules for directory db_model
+# Directory level rules for directory db_module
 
 # Recursive "all" directory target.
-db_model/all: db_model/CMakeFiles/db_model.dir/all
+db_module/all: db_module/CMakeFiles/db_module.dir/all
 
-.PHONY : db_model/all
+.PHONY : db_module/all
 
 # Recursive "preinstall" directory target.
-db_model/preinstall:
+db_module/preinstall:
 
-.PHONY : db_model/preinstall
+.PHONY : db_module/preinstall
 
 # Recursive "clean" directory target.
-db_model/clean: db_model/CMakeFiles/db_model.dir/clean
+db_module/clean: db_module/CMakeFiles/db_module.dir/clean
 
-.PHONY : db_model/clean
+.PHONY : db_module/clean
 
 #=============================================================================
 # Directory level rules for directory socket
 
 # Recursive "all" directory target.
-socket/all: socket/CMakeFiles/Socket.dir/all
+socket/all: socket/CMakeFiles/socket.dir/all
 
 .PHONY : socket/all
 
@@ -172,7 +172,7 @@ socket/preinstall:
 .PHONY : socket/preinstall
 
 # Recursive "clean" directory target.
-socket/clean: socket/CMakeFiles/Socket.dir/clean
+socket/clean: socket/CMakeFiles/socket.dir/clean
 
 .PHONY : socket/clean
 
@@ -936,15 +936,17 @@ CMakeFiles/ContinuousSubmit.dir/clean:
 # Target rules for target CMakeFiles/SimpleImServer.dir
 
 # All Build rule for target.
-CMakeFiles/SimpleImServer.dir/all: socket/CMakeFiles/Socket.dir/all
+CMakeFiles/SimpleImServer.dir/all: data_model/CMakeFiles/data_model.dir/all
+CMakeFiles/SimpleImServer.dir/all: db_module/CMakeFiles/db_module.dir/all
+CMakeFiles/SimpleImServer.dir/all: socket/CMakeFiles/socket.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/SimpleImServer.dir/build.make CMakeFiles/SimpleImServer.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/SimpleImServer.dir/build.make CMakeFiles/SimpleImServer.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/loadstar/VsCodeDir/Cpp/SimpleImServer/build/CMakeFiles --progress-num=11,12 "Built target SimpleImServer"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/loadstar/VsCodeDir/Cpp/SimpleImServer/build/CMakeFiles --progress-num=1,2 "Built target SimpleImServer"
 .PHONY : CMakeFiles/SimpleImServer.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/SimpleImServer.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/loadstar/VsCodeDir/Cpp/SimpleImServer/build/CMakeFiles 5
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/loadstar/VsCodeDir/Cpp/SimpleImServer/build/CMakeFiles 23
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/SimpleImServer.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/loadstar/VsCodeDir/Cpp/SimpleImServer/build/CMakeFiles 0
 .PHONY : CMakeFiles/SimpleImServer.dir/rule
@@ -960,85 +962,85 @@ CMakeFiles/SimpleImServer.dir/clean:
 .PHONY : CMakeFiles/SimpleImServer.dir/clean
 
 #=============================================================================
-# Target rules for target data_model/CMakeFiles/DB_MODEL.dir
+# Target rules for target data_model/CMakeFiles/data_model.dir
 
 # All Build rule for target.
-data_model/CMakeFiles/DB_MODEL.dir/all:
-	$(MAKE) $(MAKESILENT) -f data_model/CMakeFiles/DB_MODEL.dir/build.make data_model/CMakeFiles/DB_MODEL.dir/depend
-	$(MAKE) $(MAKESILENT) -f data_model/CMakeFiles/DB_MODEL.dir/build.make data_model/CMakeFiles/DB_MODEL.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/loadstar/VsCodeDir/Cpp/SimpleImServer/build/CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9,10 "Built target DB_MODEL"
-.PHONY : data_model/CMakeFiles/DB_MODEL.dir/all
+data_model/CMakeFiles/data_model.dir/all:
+	$(MAKE) $(MAKESILENT) -f data_model/CMakeFiles/data_model.dir/build.make data_model/CMakeFiles/data_model.dir/depend
+	$(MAKE) $(MAKESILENT) -f data_model/CMakeFiles/data_model.dir/build.make data_model/CMakeFiles/data_model.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/loadstar/VsCodeDir/Cpp/SimpleImServer/build/CMakeFiles --progress-num=3,4,5,6,7,8,9,10,11,12,13 "Built target data_model"
+.PHONY : data_model/CMakeFiles/data_model.dir/all
 
 # Build rule for subdir invocation for target.
-data_model/CMakeFiles/DB_MODEL.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/loadstar/VsCodeDir/Cpp/SimpleImServer/build/CMakeFiles 10
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 data_model/CMakeFiles/DB_MODEL.dir/all
+data_model/CMakeFiles/data_model.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/loadstar/VsCodeDir/Cpp/SimpleImServer/build/CMakeFiles 11
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 data_model/CMakeFiles/data_model.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/loadstar/VsCodeDir/Cpp/SimpleImServer/build/CMakeFiles 0
-.PHONY : data_model/CMakeFiles/DB_MODEL.dir/rule
+.PHONY : data_model/CMakeFiles/data_model.dir/rule
 
 # Convenience name for target.
-DB_MODEL: data_model/CMakeFiles/DB_MODEL.dir/rule
+data_model: data_model/CMakeFiles/data_model.dir/rule
 
-.PHONY : DB_MODEL
+.PHONY : data_model
 
 # clean rule for target.
-data_model/CMakeFiles/DB_MODEL.dir/clean:
-	$(MAKE) $(MAKESILENT) -f data_model/CMakeFiles/DB_MODEL.dir/build.make data_model/CMakeFiles/DB_MODEL.dir/clean
-.PHONY : data_model/CMakeFiles/DB_MODEL.dir/clean
+data_model/CMakeFiles/data_model.dir/clean:
+	$(MAKE) $(MAKESILENT) -f data_model/CMakeFiles/data_model.dir/build.make data_model/CMakeFiles/data_model.dir/clean
+.PHONY : data_model/CMakeFiles/data_model.dir/clean
 
 #=============================================================================
-# Target rules for target db_model/CMakeFiles/db_model.dir
+# Target rules for target db_module/CMakeFiles/db_module.dir
 
 # All Build rule for target.
-db_model/CMakeFiles/db_model.dir/all:
-	$(MAKE) $(MAKESILENT) -f db_model/CMakeFiles/db_model.dir/build.make db_model/CMakeFiles/db_model.dir/depend
-	$(MAKE) $(MAKESILENT) -f db_model/CMakeFiles/db_model.dir/build.make db_model/CMakeFiles/db_model.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/loadstar/VsCodeDir/Cpp/SimpleImServer/build/CMakeFiles --progress-num=16,17,18,19 "Built target db_model"
-.PHONY : db_model/CMakeFiles/db_model.dir/all
+db_module/CMakeFiles/db_module.dir/all:
+	$(MAKE) $(MAKESILENT) -f db_module/CMakeFiles/db_module.dir/build.make db_module/CMakeFiles/db_module.dir/depend
+	$(MAKE) $(MAKESILENT) -f db_module/CMakeFiles/db_module.dir/build.make db_module/CMakeFiles/db_module.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/loadstar/VsCodeDir/Cpp/SimpleImServer/build/CMakeFiles --progress-num=14,15,16,17,18,19 "Built target db_module"
+.PHONY : db_module/CMakeFiles/db_module.dir/all
 
 # Build rule for subdir invocation for target.
-db_model/CMakeFiles/db_model.dir/rule: cmake_check_build_system
+db_module/CMakeFiles/db_module.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/loadstar/VsCodeDir/Cpp/SimpleImServer/build/CMakeFiles 6
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 db_module/CMakeFiles/db_module.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/loadstar/VsCodeDir/Cpp/SimpleImServer/build/CMakeFiles 0
+.PHONY : db_module/CMakeFiles/db_module.dir/rule
+
+# Convenience name for target.
+db_module: db_module/CMakeFiles/db_module.dir/rule
+
+.PHONY : db_module
+
+# clean rule for target.
+db_module/CMakeFiles/db_module.dir/clean:
+	$(MAKE) $(MAKESILENT) -f db_module/CMakeFiles/db_module.dir/build.make db_module/CMakeFiles/db_module.dir/clean
+.PHONY : db_module/CMakeFiles/db_module.dir/clean
+
+#=============================================================================
+# Target rules for target socket/CMakeFiles/socket.dir
+
+# All Build rule for target.
+socket/CMakeFiles/socket.dir/all:
+	$(MAKE) $(MAKESILENT) -f socket/CMakeFiles/socket.dir/build.make socket/CMakeFiles/socket.dir/depend
+	$(MAKE) $(MAKESILENT) -f socket/CMakeFiles/socket.dir/build.make socket/CMakeFiles/socket.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/loadstar/VsCodeDir/Cpp/SimpleImServer/build/CMakeFiles --progress-num=20,21,22,23 "Built target socket"
+.PHONY : socket/CMakeFiles/socket.dir/all
+
+# Build rule for subdir invocation for target.
+socket/CMakeFiles/socket.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/loadstar/VsCodeDir/Cpp/SimpleImServer/build/CMakeFiles 4
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 db_model/CMakeFiles/db_model.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 socket/CMakeFiles/socket.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/loadstar/VsCodeDir/Cpp/SimpleImServer/build/CMakeFiles 0
-.PHONY : db_model/CMakeFiles/db_model.dir/rule
+.PHONY : socket/CMakeFiles/socket.dir/rule
 
 # Convenience name for target.
-db_model: db_model/CMakeFiles/db_model.dir/rule
+socket: socket/CMakeFiles/socket.dir/rule
 
-.PHONY : db_model
-
-# clean rule for target.
-db_model/CMakeFiles/db_model.dir/clean:
-	$(MAKE) $(MAKESILENT) -f db_model/CMakeFiles/db_model.dir/build.make db_model/CMakeFiles/db_model.dir/clean
-.PHONY : db_model/CMakeFiles/db_model.dir/clean
-
-#=============================================================================
-# Target rules for target socket/CMakeFiles/Socket.dir
-
-# All Build rule for target.
-socket/CMakeFiles/Socket.dir/all:
-	$(MAKE) $(MAKESILENT) -f socket/CMakeFiles/Socket.dir/build.make socket/CMakeFiles/Socket.dir/depend
-	$(MAKE) $(MAKESILENT) -f socket/CMakeFiles/Socket.dir/build.make socket/CMakeFiles/Socket.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/loadstar/VsCodeDir/Cpp/SimpleImServer/build/CMakeFiles --progress-num=13,14,15 "Built target Socket"
-.PHONY : socket/CMakeFiles/Socket.dir/all
-
-# Build rule for subdir invocation for target.
-socket/CMakeFiles/Socket.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/loadstar/VsCodeDir/Cpp/SimpleImServer/build/CMakeFiles 3
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 socket/CMakeFiles/Socket.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/loadstar/VsCodeDir/Cpp/SimpleImServer/build/CMakeFiles 0
-.PHONY : socket/CMakeFiles/Socket.dir/rule
-
-# Convenience name for target.
-Socket: socket/CMakeFiles/Socket.dir/rule
-
-.PHONY : Socket
+.PHONY : socket
 
 # clean rule for target.
-socket/CMakeFiles/Socket.dir/clean:
-	$(MAKE) $(MAKESILENT) -f socket/CMakeFiles/Socket.dir/build.make socket/CMakeFiles/Socket.dir/clean
-.PHONY : socket/CMakeFiles/Socket.dir/clean
+socket/CMakeFiles/socket.dir/clean:
+	$(MAKE) $(MAKESILENT) -f socket/CMakeFiles/socket.dir/build.make socket/CMakeFiles/socket.dir/clean
+.PHONY : socket/CMakeFiles/socket.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

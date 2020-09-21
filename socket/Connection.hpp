@@ -1,7 +1,7 @@
 /*
  * @Author: your name
  * @Date: 2020-06-10 15:22:29
- * @LastEditTime: 2020-09-13 22:11:11
+ * @LastEditTime: 2020-09-14 10:47:21
  * @LastEditors: Please set LastEditors
  * @Description: In User Settings Edit
  * @FilePath: /SimpleImServer/socket/Connection.hpp
@@ -12,7 +12,7 @@
 #include <unordered_map>
 #include <functional>
 #include <queue>
-
+#include "../project.hpp"
 
 
 class Connection;
@@ -35,7 +35,7 @@ private:
     void wait();
     void forceClose();
 
-    Map<String, Handle> handlers;
+    Map<std::string, Handle> handlers;
     StreamBufferPtr mReadBuffer;
     std::queue<StreamBufferPtr> mSendQueue;
     Socket mSocket;

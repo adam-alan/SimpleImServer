@@ -5,5 +5,5 @@
 # This file includes the relevant testing commands required for 
 # testing this directory and lists subdirectories to be tested as well.
 subdirs("data_model")
-subdirs("db_model")
+subdirs("db_module")
 subdirs("socket")

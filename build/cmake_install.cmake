@@ -45,7 +45,7 @@ endif()
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
   include("/home/loadstar/VsCodeDir/Cpp/SimpleImServer/build/data_model/cmake_install.cmake")
-  include("/home/loadstar/VsCodeDir/Cpp/SimpleImServer/build/db_model/cmake_install.cmake")
+  include("/home/loadstar/VsCodeDir/Cpp/SimpleImServer/build/db_module/cmake_install.cmake")
   include("/home/loadstar/VsCodeDir/Cpp/SimpleImServer/build/socket/cmake_install.cmake")
 
 endif()

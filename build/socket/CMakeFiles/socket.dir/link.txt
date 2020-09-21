@@ -1,0 +1,1 @@
+/usr/bin/g++ -fPIC -g -shared -Wl,-soname,libsocket.so -o libsocket.so CMakeFiles/socket.dir/ConnManager.cpp.o CMakeFiles/socket.dir/Connection.cpp.o CMakeFiles/socket.dir/TcpServer.cpp.o 

@@ -1,12 +1,12 @@
 /*
  * @Author: your name
  * @Date: 2020-06-10 08:27:24
- * @LastEditTime: 2020-07-05 20:48:31
- * @LastEditors: your name
+ * @LastEditTime: 2020-09-17 21:36:16
+ * @LastEditors: Please set LastEditors
  * @Description: In User Settings Edit
  * @FilePath: /SimpleImServer/infrastructure/model/UserMsgContent.hpp
  */ 
-#ifndef USER_MSG_CONTENT_HPP
+#if !defined(USER_MSG_CONTENT_HPP)
 #define USER_MSG_CONTENT_HPP
 
 #include <string>
@@ -16,7 +16,6 @@ struct UserMsgContent {
     uint64_t msgId;
     uint64_t senderId;
     uint64_t recipientId;
-    bool isSentBox;
     std::string content;
     std::string createTime;
     

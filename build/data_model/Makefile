@@ -163,19 +163,19 @@ depend:
 .PHONY : depend
 
 # Convenience name for target.
-data_model/CMakeFiles/DB_MODEL.dir/rule:
-	cd /home/loadstar/VsCodeDir/Cpp/SimpleImServer/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 data_model/CMakeFiles/DB_MODEL.dir/rule
-.PHONY : data_model/CMakeFiles/DB_MODEL.dir/rule
+data_model/CMakeFiles/data_model.dir/rule:
+	cd /home/loadstar/VsCodeDir/Cpp/SimpleImServer/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 data_model/CMakeFiles/data_model.dir/rule
+.PHONY : data_model/CMakeFiles/data_model.dir/rule
 
 # Convenience name for target.
-DB_MODEL: data_model/CMakeFiles/DB_MODEL.dir/rule
+data_model: data_model/CMakeFiles/data_model.dir/rule
 
-.PHONY : DB_MODEL
+.PHONY : data_model
 
 # fast build rule for target.
-DB_MODEL/fast:
-	cd /home/loadstar/VsCodeDir/Cpp/SimpleImServer/build && $(MAKE) $(MAKESILENT) -f data_model/CMakeFiles/DB_MODEL.dir/build.make data_model/CMakeFiles/DB_MODEL.dir/build
-.PHONY : DB_MODEL/fast
+data_model/fast:
+	cd /home/loadstar/VsCodeDir/Cpp/SimpleImServer/build && $(MAKE) $(MAKESILENT) -f data_model/CMakeFiles/data_model.dir/build.make data_model/CMakeFiles/data_model.dir/build
+.PHONY : data_model/fast
 
 messages/AddFriendRequest.o: messages/AddFriendRequest.cpp.o
 
@@ -183,7 +183,7 @@ messages/AddFriendRequest.o: messages/AddFriendRequest.cpp.o
 
 # target to build an object file
 messages/AddFriendRequest.cpp.o:
-	cd /home/loadstar/VsCodeDir/Cpp/SimpleImServer/build && $(MAKE) $(MAKESILENT) -f data_model/CMakeFiles/DB_MODEL.dir/build.make data_model/CMakeFiles/DB_MODEL.dir/messages/AddFriendRequest.cpp.o
+	cd /home/loadstar/VsCodeDir/Cpp/SimpleImServer/build && $(MAKE) $(MAKESILENT) -f data_model/CMakeFiles/data_model.dir/build.make data_model/CMakeFiles/data_model.dir/messages/AddFriendRequest.cpp.o
 .PHONY : messages/AddFriendRequest.cpp.o
 
 messages/AddFriendRequest.i: messages/AddFriendRequest.cpp.i
@@ -192,7 +192,7 @@ messages/AddFriendRequest.i: messages/AddFriendRequest.cpp.i
 
 # target to preprocess a source file
 messages/AddFriendRequest.cpp.i:
-	cd /home/loadstar/VsCodeDir/Cpp/SimpleImServer/build && $(MAKE) $(MAKESILENT) -f data_model/CMakeFiles/DB_MODEL.dir/build.make data_model/CMakeFiles/DB_MODEL.dir/messages/AddFriendRequest.cpp.i
+	cd /home/loadstar/VsCodeDir/Cpp/SimpleImServer/build && $(MAKE) $(MAKESILENT) -f data_model/CMakeFiles/data_model.dir/build.make data_model/CMakeFiles/data_model.dir/messages/AddFriendRequest.cpp.i
 .PHONY : messages/AddFriendRequest.cpp.i
 
 messages/AddFriendRequest.s: messages/AddFriendRequest.cpp.s
@@ -201,7 +201,7 @@ messages/AddFriendRequest.s: messages/AddFriendRequest.cpp.s
 
 # target to generate assembly for a file
 messages/AddFriendRequest.cpp.s:
-	cd /home/loadstar/VsCodeDir/Cpp/SimpleImServer/build && $(MAKE) $(MAKESILENT) -f data_model/CMakeFiles/DB_MODEL.dir/build.make data_model/CMakeFiles/DB_MODEL.dir/messages/AddFriendRequest.cpp.s
+	cd /home/loadstar/VsCodeDir/Cpp/SimpleImServer/build && $(MAKE) $(MAKESILENT) -f data_model/CMakeFiles/data_model.dir/build.make data_model/CMakeFiles/data_model.dir/messages/AddFriendRequest.cpp.s
 .PHONY : messages/AddFriendRequest.cpp.s
 
 messages/AddFriendResponce.o: messages/AddFriendResponce.cpp.o
@@ -210,7 +210,7 @@ messages/AddFriendResponce.o: messages/AddFriendResponce.cpp.o
 
 # target to build an object file
 messages/AddFriendResponce.cpp.o:
-	cd /home/loadstar/VsCodeDir/Cpp/SimpleImServer/build && $(MAKE) $(MAKESILENT) -f data_model/CMakeFiles/DB_MODEL.dir/build.make data_model/CMakeFiles/DB_MODEL.dir/messages/AddFriendResponce.cpp.o
+	cd /home/loadstar/VsCodeDir/Cpp/SimpleImServer/build && $(MAKE) $(MAKESILENT) -f data_model/CMakeFiles/data_model.dir/build.make data_model/CMakeFiles/data_model.dir/messages/AddFriendResponce.cpp.o
 .PHONY : messages/AddFriendResponce.cpp.o
 
 messages/AddFriendResponce.i: messages/AddFriendResponce.cpp.i
@@ -219,7 +219,7 @@ messages/AddFriendResponce.i: messages/AddFriendResponce.cpp.i
 
 # target to preprocess a source file
 messages/AddFriendResponce.cpp.i:
-	cd /home/loadstar/VsCodeDir/Cpp/SimpleImServer/build && $(MAKE) $(MAKESILENT) -f data_model/CMakeFiles/DB_MODEL.dir/build.make data_model/CMakeFiles/DB_MODEL.dir/messages/AddFriendResponce.cpp.i
+	cd /home/loadstar/VsCodeDir/Cpp/SimpleImServer/build && $(MAKE) $(MAKESILENT) -f data_model/CMakeFiles/data_model.dir/build.make data_model/CMakeFiles/data_model.dir/messages/AddFriendResponce.cpp.i
 .PHONY : messages/AddFriendResponce.cpp.i
 
 messages/AddFriendResponce.s: messages/AddFriendResponce.cpp.s
@@ -228,7 +228,7 @@ messages/AddFriendResponce.s: messages/AddFriendResponce.cpp.s
 
 # target to generate assembly for a file
 messages/AddFriendResponce.cpp.s:
-	cd /home/loadstar/VsCodeDir/Cpp/SimpleImServer/build && $(MAKE) $(MAKESILENT) -f data_model/CMakeFiles/DB_MODEL.dir/build.make data_model/CMakeFiles/DB_MODEL.dir/messages/AddFriendResponce.cpp.s
+	cd /home/loadstar/VsCodeDir/Cpp/SimpleImServer/build && $(MAKE) $(MAKESILENT) -f data_model/CMakeFiles/data_model.dir/build.make data_model/CMakeFiles/data_model.dir/messages/AddFriendResponce.cpp.s
 .PHONY : messages/AddFriendResponce.cpp.s
 
 messages/LoginRequest.o: messages/LoginRequest.cpp.o
@@ -237,7 +237,7 @@ messages/LoginRequest.o: messages/LoginRequest.cpp.o
 
 # target to build an object file
 messages/LoginRequest.cpp.o:
-	cd /home/loadstar/VsCodeDir/Cpp/SimpleImServer/build && $(MAKE) $(MAKESILENT) -f data_model/CMakeFiles/DB_MODEL.dir/build.make data_model/CMakeFiles/DB_MODEL.dir/messages/LoginRequest.cpp.o
+	cd /home/loadstar/VsCodeDir/Cpp/SimpleImServer/build && $(MAKE) $(MAKESILENT) -f data_model/CMakeFiles/data_model.dir/build.make data_model/CMakeFiles/data_model.dir/messages/LoginRequest.cpp.o
 .PHONY : messages/LoginRequest.cpp.o
 
 messages/LoginRequest.i: messages/LoginRequest.cpp.i
@@ -246,7 +246,7 @@ messages/LoginRequest.i: messages/LoginRequest.cpp.i
 
 # target to preprocess a source file
 messages/LoginRequest.cpp.i:
-	cd /home/loadstar/VsCodeDir/Cpp/SimpleImServer/build && $(MAKE) $(MAKESILENT) -f data_model/CMakeFiles/DB_MODEL.dir/build.make data_model/CMakeFiles/DB_MODEL.dir/messages/LoginRequest.cpp.i
+	cd /home/loadstar/VsCodeDir/Cpp/SimpleImServer/build && $(MAKE) $(MAKESILENT) -f data_model/CMakeFiles/data_model.dir/build.make data_model/CMakeFiles/data_model.dir/messages/LoginRequest.cpp.i
 .PHONY : messages/LoginRequest.cpp.i
 
 messages/LoginRequest.s: messages/LoginRequest.cpp.s
@@ -255,62 +255,89 @@ messages/LoginRequest.s: messages/LoginRequest.cpp.s
 
 # target to generate assembly for a file
 messages/LoginRequest.cpp.s:
-	cd /home/loadstar/VsCodeDir/Cpp/SimpleImServer/build && $(MAKE) $(MAKESILENT) -f data_model/CMakeFiles/DB_MODEL.dir/build.make data_model/CMakeFiles/DB_MODEL.dir/messages/LoginRequest.cpp.s
+	cd /home/loadstar/VsCodeDir/Cpp/SimpleImServer/build && $(MAKE) $(MAKESILENT) -f data_model/CMakeFiles/data_model.dir/build.make data_model/CMakeFiles/data_model.dir/messages/LoginRequest.cpp.s
 .PHONY : messages/LoginRequest.cpp.s
 
-messages/loginResponce.o: messages/loginResponce.cpp.o
+messages/LoginResponce.o: messages/LoginResponce.cpp.o
 
-.PHONY : messages/loginResponce.o
-
-# target to build an object file
-messages/loginResponce.cpp.o:
-	cd /home/loadstar/VsCodeDir/Cpp/SimpleImServer/build && $(MAKE) $(MAKESILENT) -f data_model/CMakeFiles/DB_MODEL.dir/build.make data_model/CMakeFiles/DB_MODEL.dir/messages/loginResponce.cpp.o
-.PHONY : messages/loginResponce.cpp.o
-
-messages/loginResponce.i: messages/loginResponce.cpp.i
-
-.PHONY : messages/loginResponce.i
-
-# target to preprocess a source file
-messages/loginResponce.cpp.i:
-	cd /home/loadstar/VsCodeDir/Cpp/SimpleImServer/build && $(MAKE) $(MAKESILENT) -f data_model/CMakeFiles/DB_MODEL.dir/build.make data_model/CMakeFiles/DB_MODEL.dir/messages/loginResponce.cpp.i
-.PHONY : messages/loginResponce.cpp.i
-
-messages/loginResponce.s: messages/loginResponce.cpp.s
-
-.PHONY : messages/loginResponce.s
-
-# target to generate assembly for a file
-messages/loginResponce.cpp.s:
-	cd /home/loadstar/VsCodeDir/Cpp/SimpleImServer/build && $(MAKE) $(MAKESILENT) -f data_model/CMakeFiles/DB_MODEL.dir/build.make data_model/CMakeFiles/DB_MODEL.dir/messages/loginResponce.cpp.s
-.PHONY : messages/loginResponce.cpp.s
-
-model/Group.o: model/Group.cpp.o
-
-.PHONY : model/Group.o
+.PHONY : messages/LoginResponce.o
 
 # target to build an object file
-model/Group.cpp.o:
-	cd /home/loadstar/VsCodeDir/Cpp/SimpleImServer/build && $(MAKE) $(MAKESILENT) -f data_model/CMakeFiles/DB_MODEL.dir/build.make data_model/CMakeFiles/DB_MODEL.dir/model/Group.cpp.o
-.PHONY : model/Group.cpp.o
+messages/LoginResponce.cpp.o:
+	cd /home/loadstar/VsCodeDir/Cpp/SimpleImServer/build && $(MAKE) $(MAKESILENT) -f data_model/CMakeFiles/data_model.dir/build.make data_model/CMakeFiles/data_model.dir/messages/LoginResponce.cpp.o
+.PHONY : messages/LoginResponce.cpp.o
 
-model/Group.i: model/Group.cpp.i
+messages/LoginResponce.i: messages/LoginResponce.cpp.i
 
-.PHONY : model/Group.i
+.PHONY : messages/LoginResponce.i
 
 # target to preprocess a source file
-model/Group.cpp.i:
-	cd /home/loadstar/VsCodeDir/Cpp/SimpleImServer/build && $(MAKE) $(MAKESILENT) -f data_model/CMakeFiles/DB_MODEL.dir/build.make data_model/CMakeFiles/DB_MODEL.dir/model/Group.cpp.i
-.PHONY : model/Group.cpp.i
+messages/LoginResponce.cpp.i:
+	cd /home/loadstar/VsCodeDir/Cpp/SimpleImServer/build && $(MAKE) $(MAKESILENT) -f data_model/CMakeFiles/data_model.dir/build.make data_model/CMakeFiles/data_model.dir/messages/LoginResponce.cpp.i
+.PHONY : messages/LoginResponce.cpp.i
 
-model/Group.s: model/Group.cpp.s
+messages/LoginResponce.s: messages/LoginResponce.cpp.s
 
-.PHONY : model/Group.s
+.PHONY : messages/LoginResponce.s
 
 # target to generate assembly for a file
-model/Group.cpp.s:
-	cd /home/loadstar/VsCodeDir/Cpp/SimpleImServer/build && $(MAKE) $(MAKESILENT) -f data_model/CMakeFiles/DB_MODEL.dir/build.make data_model/CMakeFiles/DB_MODEL.dir/model/Group.cpp.s
-.PHONY : model/Group.cpp.s
+messages/LoginResponce.cpp.s:
+	cd /home/loadstar/VsCodeDir/Cpp/SimpleImServer/build && $(MAKE) $(MAKESILENT) -f data_model/CMakeFiles/data_model.dir/build.make data_model/CMakeFiles/data_model.dir/messages/LoginResponce.cpp.s
+.PHONY : messages/LoginResponce.cpp.s
+
+messages/UserMsgRequest.o: messages/UserMsgRequest.cpp.o
+
+.PHONY : messages/UserMsgRequest.o
+
+# target to build an object file
+messages/UserMsgRequest.cpp.o:
+	cd /home/loadstar/VsCodeDir/Cpp/SimpleImServer/build && $(MAKE) $(MAKESILENT) -f data_model/CMakeFiles/data_model.dir/build.make data_model/CMakeFiles/data_model.dir/messages/UserMsgRequest.cpp.o
+.PHONY : messages/UserMsgRequest.cpp.o
+
+messages/UserMsgRequest.i: messages/UserMsgRequest.cpp.i
+
+.PHONY : messages/UserMsgRequest.i
+
+# target to preprocess a source file
+messages/UserMsgRequest.cpp.i:
+	cd /home/loadstar/VsCodeDir/Cpp/SimpleImServer/build && $(MAKE) $(MAKESILENT) -f data_model/CMakeFiles/data_model.dir/build.make data_model/CMakeFiles/data_model.dir/messages/UserMsgRequest.cpp.i
+.PHONY : messages/UserMsgRequest.cpp.i
+
+messages/UserMsgRequest.s: messages/UserMsgRequest.cpp.s
+
+.PHONY : messages/UserMsgRequest.s
+
+# target to generate assembly for a file
+messages/UserMsgRequest.cpp.s:
+	cd /home/loadstar/VsCodeDir/Cpp/SimpleImServer/build && $(MAKE) $(MAKESILENT) -f data_model/CMakeFiles/data_model.dir/build.make data_model/CMakeFiles/data_model.dir/messages/UserMsgRequest.cpp.s
+.PHONY : messages/UserMsgRequest.cpp.s
+
+messages/UserMsgResponce.o: messages/UserMsgResponce.cpp.o
+
+.PHONY : messages/UserMsgResponce.o
+
+# target to build an object file
+messages/UserMsgResponce.cpp.o:
+	cd /home/loadstar/VsCodeDir/Cpp/SimpleImServer/build && $(MAKE) $(MAKESILENT) -f data_model/CMakeFiles/data_model.dir/build.make data_model/CMakeFiles/data_model.dir/messages/UserMsgResponce.cpp.o
+.PHONY : messages/UserMsgResponce.cpp.o
+
+messages/UserMsgResponce.i: messages/UserMsgResponce.cpp.i
+
+.PHONY : messages/UserMsgResponce.i
+
+# target to preprocess a source file
+messages/UserMsgResponce.cpp.i:
+	cd /home/loadstar/VsCodeDir/Cpp/SimpleImServer/build && $(MAKE) $(MAKESILENT) -f data_model/CMakeFiles/data_model.dir/build.make data_model/CMakeFiles/data_model.dir/messages/UserMsgResponce.cpp.i
+.PHONY : messages/UserMsgResponce.cpp.i
+
+messages/UserMsgResponce.s: messages/UserMsgResponce.cpp.s
+
+.PHONY : messages/UserMsgResponce.s
+
+# target to generate assembly for a file
+messages/UserMsgResponce.cpp.s:
+	cd /home/loadstar/VsCodeDir/Cpp/SimpleImServer/build && $(MAKE) $(MAKESILENT) -f data_model/CMakeFiles/data_model.dir/build.make data_model/CMakeFiles/data_model.dir/messages/UserMsgResponce.cpp.s
+.PHONY : messages/UserMsgResponce.cpp.s
 
 model/User.o: model/User.cpp.o
 
@@ -318,7 +345,7 @@ model/User.o: model/User.cpp.o
 
 # target to build an object file
 model/User.cpp.o:
-	cd /home/loadstar/VsCodeDir/Cpp/SimpleImServer/build && $(MAKE) $(MAKESILENT) -f data_model/CMakeFiles/DB_MODEL.dir/build.make data_model/CMakeFiles/DB_MODEL.dir/model/User.cpp.o
+	cd /home/loadstar/VsCodeDir/Cpp/SimpleImServer/build && $(MAKE) $(MAKESILENT) -f data_model/CMakeFiles/data_model.dir/build.make data_model/CMakeFiles/data_model.dir/model/User.cpp.o
 .PHONY : model/User.cpp.o
 
 model/User.i: model/User.cpp.i
@@ -327,7 +354,7 @@ model/User.i: model/User.cpp.i
 
 # target to preprocess a source file
 model/User.cpp.i:
-	cd /home/loadstar/VsCodeDir/Cpp/SimpleImServer/build && $(MAKE) $(MAKESILENT) -f data_model/CMakeFiles/DB_MODEL.dir/build.make data_model/CMakeFiles/DB_MODEL.dir/model/User.cpp.i
+	cd /home/loadstar/VsCodeDir/Cpp/SimpleImServer/build && $(MAKE) $(MAKESILENT) -f data_model/CMakeFiles/data_model.dir/build.make data_model/CMakeFiles/data_model.dir/model/User.cpp.i
 .PHONY : model/User.cpp.i
 
 model/User.s: model/User.cpp.s
@@ -336,7 +363,7 @@ model/User.s: model/User.cpp.s
 
 # target to generate assembly for a file
 model/User.cpp.s:
-	cd /home/loadstar/VsCodeDir/Cpp/SimpleImServer/build && $(MAKE) $(MAKESILENT) -f data_model/CMakeFiles/DB_MODEL.dir/build.make data_model/CMakeFiles/DB_MODEL.dir/model/User.cpp.s
+	cd /home/loadstar/VsCodeDir/Cpp/SimpleImServer/build && $(MAKE) $(MAKESILENT) -f data_model/CMakeFiles/data_model.dir/build.make data_model/CMakeFiles/data_model.dir/model/User.cpp.s
 .PHONY : model/User.cpp.s
 
 model/UserMsgContent.o: model/UserMsgContent.cpp.o
@@ -345,7 +372,7 @@ model/UserMsgContent.o: model/UserMsgContent.cpp.o
 
 # target to build an object file
 model/UserMsgContent.cpp.o:
-	cd /home/loadstar/VsCodeDir/Cpp/SimpleImServer/build && $(MAKE) $(MAKESILENT) -f data_model/CMakeFiles/DB_MODEL.dir/build.make data_model/CMakeFiles/DB_MODEL.dir/model/UserMsgContent.cpp.o
+	cd /home/loadstar/VsCodeDir/Cpp/SimpleImServer/build && $(MAKE) $(MAKESILENT) -f data_model/CMakeFiles/data_model.dir/build.make data_model/CMakeFiles/data_model.dir/model/UserMsgContent.cpp.o
 .PHONY : model/UserMsgContent.cpp.o
 
 model/UserMsgContent.i: model/UserMsgContent.cpp.i
@@ -354,7 +381,7 @@ model/UserMsgContent.i: model/UserMsgContent.cpp.i
 
 # target to preprocess a source file
 model/UserMsgContent.cpp.i:
-	cd /home/loadstar/VsCodeDir/Cpp/SimpleImServer/build && $(MAKE) $(MAKESILENT) -f data_model/CMakeFiles/DB_MODEL.dir/build.make data_model/CMakeFiles/DB_MODEL.dir/model/UserMsgContent.cpp.i
+	cd /home/loadstar/VsCodeDir/Cpp/SimpleImServer/build && $(MAKE) $(MAKESILENT) -f data_model/CMakeFiles/data_model.dir/build.make data_model/CMakeFiles/data_model.dir/model/UserMsgContent.cpp.i
 .PHONY : model/UserMsgContent.cpp.i
 
 model/UserMsgContent.s: model/UserMsgContent.cpp.s
@@ -363,35 +390,35 @@ model/UserMsgContent.s: model/UserMsgContent.cpp.s
 
 # target to generate assembly for a file
 model/UserMsgContent.cpp.s:
-	cd /home/loadstar/VsCodeDir/Cpp/SimpleImServer/build && $(MAKE) $(MAKESILENT) -f data_model/CMakeFiles/DB_MODEL.dir/build.make data_model/CMakeFiles/DB_MODEL.dir/model/UserMsgContent.cpp.s
+	cd /home/loadstar/VsCodeDir/Cpp/SimpleImServer/build && $(MAKE) $(MAKESILENT) -f data_model/CMakeFiles/data_model.dir/build.make data_model/CMakeFiles/data_model.dir/model/UserMsgContent.cpp.s
 .PHONY : model/UserMsgContent.cpp.s
 
-model/UserMsgRelation.o: model/UserMsgRelation.cpp.o
+model/UserMsgIndex.o: model/UserMsgIndex.cpp.o
 
-.PHONY : model/UserMsgRelation.o
+.PHONY : model/UserMsgIndex.o
 
 # target to build an object file
-model/UserMsgRelation.cpp.o:
-	cd /home/loadstar/VsCodeDir/Cpp/SimpleImServer/build && $(MAKE) $(MAKESILENT) -f data_model/CMakeFiles/DB_MODEL.dir/build.make data_model/CMakeFiles/DB_MODEL.dir/model/UserMsgRelation.cpp.o
-.PHONY : model/UserMsgRelation.cpp.o
+model/UserMsgIndex.cpp.o:
+	cd /home/loadstar/VsCodeDir/Cpp/SimpleImServer/build && $(MAKE) $(MAKESILENT) -f data_model/CMakeFiles/data_model.dir/build.make data_model/CMakeFiles/data_model.dir/model/UserMsgIndex.cpp.o
+.PHONY : model/UserMsgIndex.cpp.o
 
-model/UserMsgRelation.i: model/UserMsgRelation.cpp.i
+model/UserMsgIndex.i: model/UserMsgIndex.cpp.i
 
-.PHONY : model/UserMsgRelation.i
+.PHONY : model/UserMsgIndex.i
 
 # target to preprocess a source file
-model/UserMsgRelation.cpp.i:
-	cd /home/loadstar/VsCodeDir/Cpp/SimpleImServer/build && $(MAKE) $(MAKESILENT) -f data_model/CMakeFiles/DB_MODEL.dir/build.make data_model/CMakeFiles/DB_MODEL.dir/model/UserMsgRelation.cpp.i
-.PHONY : model/UserMsgRelation.cpp.i
+model/UserMsgIndex.cpp.i:
+	cd /home/loadstar/VsCodeDir/Cpp/SimpleImServer/build && $(MAKE) $(MAKESILENT) -f data_model/CMakeFiles/data_model.dir/build.make data_model/CMakeFiles/data_model.dir/model/UserMsgIndex.cpp.i
+.PHONY : model/UserMsgIndex.cpp.i
 
-model/UserMsgRelation.s: model/UserMsgRelation.cpp.s
+model/UserMsgIndex.s: model/UserMsgIndex.cpp.s
 
-.PHONY : model/UserMsgRelation.s
+.PHONY : model/UserMsgIndex.s
 
 # target to generate assembly for a file
-model/UserMsgRelation.cpp.s:
-	cd /home/loadstar/VsCodeDir/Cpp/SimpleImServer/build && $(MAKE) $(MAKESILENT) -f data_model/CMakeFiles/DB_MODEL.dir/build.make data_model/CMakeFiles/DB_MODEL.dir/model/UserMsgRelation.cpp.s
-.PHONY : model/UserMsgRelation.cpp.s
+model/UserMsgIndex.cpp.s:
+	cd /home/loadstar/VsCodeDir/Cpp/SimpleImServer/build && $(MAKE) $(MAKESILENT) -f data_model/CMakeFiles/data_model.dir/build.make data_model/CMakeFiles/data_model.dir/model/UserMsgIndex.cpp.s
+.PHONY : model/UserMsgIndex.cpp.s
 
 model/UserRelation.o: model/UserRelation.cpp.o
 
@@ -399,7 +426,7 @@ model/UserRelation.o: model/UserRelation.cpp.o
 
 # target to build an object file
 model/UserRelation.cpp.o:
-	cd /home/loadstar/VsCodeDir/Cpp/SimpleImServer/build && $(MAKE) $(MAKESILENT) -f data_model/CMakeFiles/DB_MODEL.dir/build.make data_model/CMakeFiles/DB_MODEL.dir/model/UserRelation.cpp.o
+	cd /home/loadstar/VsCodeDir/Cpp/SimpleImServer/build && $(MAKE) $(MAKESILENT) -f data_model/CMakeFiles/data_model.dir/build.make data_model/CMakeFiles/data_model.dir/model/UserRelation.cpp.o
 .PHONY : model/UserRelation.cpp.o
 
 model/UserRelation.i: model/UserRelation.cpp.i
@@ -408,7 +435,7 @@ model/UserRelation.i: model/UserRelation.cpp.i
 
 # target to preprocess a source file
 model/UserRelation.cpp.i:
-	cd /home/loadstar/VsCodeDir/Cpp/SimpleImServer/build && $(MAKE) $(MAKESILENT) -f data_model/CMakeFiles/DB_MODEL.dir/build.make data_model/CMakeFiles/DB_MODEL.dir/model/UserRelation.cpp.i
+	cd /home/loadstar/VsCodeDir/Cpp/SimpleImServer/build && $(MAKE) $(MAKESILENT) -f data_model/CMakeFiles/data_model.dir/build.make data_model/CMakeFiles/data_model.dir/model/UserRelation.cpp.i
 .PHONY : model/UserRelation.cpp.i
 
 model/UserRelation.s: model/UserRelation.cpp.s
@@ -417,7 +444,7 @@ model/UserRelation.s: model/UserRelation.cpp.s
 
 # target to generate assembly for a file
 model/UserRelation.cpp.s:
-	cd /home/loadstar/VsCodeDir/Cpp/SimpleImServer/build && $(MAKE) $(MAKESILENT) -f data_model/CMakeFiles/DB_MODEL.dir/build.make data_model/CMakeFiles/DB_MODEL.dir/model/UserRelation.cpp.s
+	cd /home/loadstar/VsCodeDir/Cpp/SimpleImServer/build && $(MAKE) $(MAKESILENT) -f data_model/CMakeFiles/data_model.dir/build.make data_model/CMakeFiles/data_model.dir/model/UserRelation.cpp.s
 .PHONY : model/UserRelation.cpp.s
 
 # Help Target
@@ -431,7 +458,7 @@ help:
 	@echo "... package_source"
 	@echo "... rebuild_cache"
 	@echo "... test"
-	@echo "... DB_MODEL"
+	@echo "... data_model"
 	@echo "... messages/AddFriendRequest.o"
 	@echo "... messages/AddFriendRequest.i"
 	@echo "... messages/AddFriendRequest.s"
@@ -441,21 +468,24 @@ help:
 	@echo "... messages/LoginRequest.o"
 	@echo "... messages/LoginRequest.i"
 	@echo "... messages/LoginRequest.s"
-	@echo "... messages/loginResponce.o"
-	@echo "... messages/loginResponce.i"
-	@echo "... messages/loginResponce.s"
-	@echo "... model/Group.o"
-	@echo "... model/Group.i"
-	@echo "... model/Group.s"
+	@echo "... messages/LoginResponce.o"
+	@echo "... messages/LoginResponce.i"
+	@echo "... messages/LoginResponce.s"
+	@echo "... messages/UserMsgRequest.o"
+	@echo "... messages/UserMsgRequest.i"
+	@echo "... messages/UserMsgRequest.s"
+	@echo "... messages/UserMsgResponce.o"
+	@echo "... messages/UserMsgResponce.i"
+	@echo "... messages/UserMsgResponce.s"
 	@echo "... model/User.o"
 	@echo "... model/User.i"
 	@echo "... model/User.s"
 	@echo "... model/UserMsgContent.o"
 	@echo "... model/UserMsgContent.i"
 	@echo "... model/UserMsgContent.s"
-	@echo "... model/UserMsgRelation.o"
-	@echo "... model/UserMsgRelation.i"
-	@echo "... model/UserMsgRelation.s"
+	@echo "... model/UserMsgIndex.o"
+	@echo "... model/UserMsgIndex.i"
+	@echo "... model/UserMsgIndex.s"
 	@echo "... model/UserRelation.o"
 	@echo "... model/UserRelation.i"
 	@echo "... model/UserRelation.s"

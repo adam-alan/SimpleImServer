@@ -1,7 +1,7 @@
 /*
  * @Author: your name
  * @Date: 2020-07-03 19:18:19
- * @LastEditTime: 2020-07-07 13:16:25
+ * @LastEditTime: 2020-09-17 00:25:25
  * @LastEditors: Please set LastEditors
  * @Description: In User Settings Edit
  * 
@@ -17,18 +17,18 @@
 
 class ConnManager{
 public:
+    ConnManager();
+    ~ConnManager();
 
     void add(uint64_t userId, ConnPtr connPtr);
     void remove(uint64_t userId);
     void remove(ConnPtr connPtr);
-    void connection(uint64_t userId);
-   
-    uint64_t userId(ConnPtr connPtr);
-    ConnPtr connectionId(uint64_t userId);
+    uint64_t getUserIdByConn(ConnPtr connPtr);
+    ConnPtr getConnByUserId(uint64_t userId);
 
 private:
-    ConcurrentMap<uint64_t, ConnPtr> mUserIdToConn;
-    ConcurrentMap<ConnPtr, uint64_t> mConnToUserId;
+    Map<uint64_t, ConnPtr> userIdToConn_;
+    Map<ConnPtr, uint64_t> connToUserId_;
     
 };
 
